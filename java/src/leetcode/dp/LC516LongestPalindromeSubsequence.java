@@ -51,6 +51,22 @@ public class LC516LongestPalindromeSubsequence {
     return dp[0][n - 1];
   }
 
+  public static int longestPalindSubseq_recur(String s) {
+    if (s == null) return 0;
+    int n = s.length();
+    if (n < 2) return n;
+    return helper(s, 0, n);
+  }
+  private static int helper(String s, int start, int len) {
+    if (len == 1) return 1;
+    if (len == 0) return 0;
+    if (s.charAt(start) == s.charAt(start + len - 1)) {
+      return helper(s, start + 1, len - 2) + 2;
+    } else {
+      return Math.max(helper(s, start + 1, len - 1), helper(s, start, len - 1));
+    }
+  }
+
   public static void main(String[] args) {
     System.out.println(longestPalindromeSubseq("abbbbadd"));
     System.out.println(longestPalindromeSubseq(""));
@@ -58,5 +74,12 @@ public class LC516LongestPalindromeSubsequence {
     System.out.println(longestPalindromeSubseq("aa"));
     System.out.println(longestPalindromeSubseq("aba"));
     System.out.println(longestPalindromeSubseq("ababbbbba"));
+    System.out.println("--------------------------------------------");
+    System.out.println(longestPalindSubseq_recur("abbbbadd"));
+    System.out.println(longestPalindSubseq_recur(""));
+    System.out.println(longestPalindSubseq_recur("a"));
+    System.out.println(longestPalindSubseq_recur("aa"));
+    System.out.println(longestPalindSubseq_recur("aba"));
+    System.out.println(longestPalindSubseq_recur("ababbbbba"));
   }
 }
