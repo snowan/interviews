@@ -66,6 +66,7 @@ public class LC1024VideoStitching {
    */
   public int videoStitching(int[][] clips, int T) {
     if (clips == null || clips.length == 0) return -1;
+    if (T == 0) return 0;
     Arrays.sort(clips, (a, b) -> a[0] - b[0]);
     int res = 0;
     int end = 0;
