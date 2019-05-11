@@ -1,4 +1,4 @@
-package leetcode.dp;
+package leetcode.dpgreedy;
 
 /**
  * 516. Longest Palindromic Subsequence
@@ -25,8 +25,8 @@ package leetcode.dp;
 public class LC516LongestPalindromeSubsequence {
   /**
    * Solution: DP + sliding window, start from len = 2, and keep (right(j) - left(i) + 1 = len), moving from left to right.
-   * for s.charAt(i) == s.charAt(j), dp[i][j] = dp[i + 1][j - 1] + 2 (when len = 2, dp[i][j] = 2)
-   * otherwise dp[i][j] = Math.max(dp[i + 1][j], dp[i][j - 1]).
+   * for s.charAt(i) == s.charAt(j), dpgreedy[i][j] = dpgreedy[i + 1][j - 1] + 2 (when len = 2, dpgreedy[i][j] = 2)
+   * otherwise dpgreedy[i][j] = Math.max(dpgreedy[i + 1][j], dpgreedy[i][j - 1]).
    *
    * TC: O(n ^ 2) - n is the length of input string
    * SC: O(n ^ 2)

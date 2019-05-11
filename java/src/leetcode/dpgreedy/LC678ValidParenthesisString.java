@@ -1,4 +1,4 @@
-package leetcode.dp;
+package leetcode.dpgreedy;
 
 /**
  * 678. Valid Parenthesis String
@@ -39,9 +39,7 @@ public class LC678ValidParenthesisString {
    *  - '*' as ')', count - 1
    *  - '*' as '*', count
    *
-   * so we can recursively check count.
-   *
-   * TC: O(
+   * so recursively check count.
    *
    */
   public boolean checkValidString(String s) {
@@ -67,7 +65,29 @@ public class LC678ValidParenthesisString {
 
   /**
    * solution #2. Greedy, from recursive solution, we know that when encounter '*', we need to check 3 options,
-   * we can keep track off min count, and max count.
+   * we can keep track min count, and max count.
+   * 1. when encounter '(', minCount++, maxCount++
+   * 2. when encounter ')', maxCount--; and check if (minCount > 0), minCount--
+   * 3. when encounter '*', maxCount++; and check if (minCount > 0), minCount--.
+   * 4. check if maxCount < 0, then no way it can be valid, return false;
+   * 5. check minCount == 0;
+   *
+   * for example: "(**))"
+   * idx = 0, count = 1, minCount = 1, maxCount = 1
+   * idx = 1, count can be, [0, 1, 2] (0 - '*' as ')', 1 - '*' as '*', 2 - '*' as '(') - minCount = 0, maxCount = 2
+   * idx = 2, count have 9 possible value,
+   *  when count=0, count cane be [-1, 0, 1]
+   *  when count=1, count can be [0, 1, 2]
+   *  when count=2, count can be [1, 2, 3]
+   *  summarize, count can be [0, 1, 2, 3] - minCount = 0, maxCount = 3
+   * idx = 3, count = [0, 1, 2] - minCount = 0, maxCount = 2
+   * idx = 4, count = [0, 1] - minCount = 0, maxCount = 1.
+   * another check we can realize, if maxCount < 0, there is no way we can make string valid.
+   *
+   * from above observation, we can get above steps (1~5) on how to check minCount, and maxCount.
+   *
+   * TC: O(n) - n is String length
+   * SC: O(1)
    */
   public boolean checkValidParenthesis(String s) {
     if (s == null || s.length() == 0) return true;
@@ -84,7 +104,7 @@ public class LC678ValidParenthesisString {
         maxCount--;
       } else if (curr == '*') {
         if (minCount > 0) minCount--;
-        maxCount--;
+        maxCount++;
       }
       if (maxCount < 0) return false;
     }

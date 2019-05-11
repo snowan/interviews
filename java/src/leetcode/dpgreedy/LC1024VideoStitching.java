@@ -1,4 +1,4 @@
-package leetcode.dp;
+package leetcode.dpgreedy;
 
 import java.util.Arrays;
 
@@ -87,10 +87,10 @@ public class LC1024VideoStitching {
 
   /**
    *  Solution: DP
-   *  dp[T + 1], calculate min for each t ([0,T]. for each t,
-   *  loop clips, for each clop, when t is within interval (t >= curr[0], t <= curr[1]). update dp[t]
-   *  dp[t] = min(dp[i], dp[curr[0]] + 1)
-   *  end loop, check current t, if dp[t] == T + 1, then no interval cover t. then return -1.
+   *  dpgreedy[T + 1], calculate min for each t ([0,T]. for each t,
+   *  loop clips, for each clop, when t is within interval (t >= curr[0], t <= curr[1]). update dpgreedy[t]
+   *  dpgreedy[t] = min(dpgreedy[i], dpgreedy[curr[0]] + 1)
+   *  end loop, check current t, if dpgreedy[t] == T + 1, then no interval cover t. then return -1.
    *  otherwise, continue.
    *
    * TC: O(N * T) - N is clips size, T is target
