@@ -1,4 +1,4 @@
-package leetcode.dpgreedy;
+package leetcode.dpgreedy.LC516;
 
 /**
  * 516. Longest Palindromic Subsequence
