@@ -40,7 +40,8 @@ public class LC678ValidParenthesisString {
    *  - '*' as '*', count
    *
    * so recursively check count.
-   *
+   * TC: O(3 ^ n) - n is the number of '*'
+   * SC: O(3 ^ n)
    */
   public boolean checkValidString(String s) {
     if (s == null || s.length() == 0) return true;
@@ -48,8 +49,7 @@ public class LC678ValidParenthesisString {
   }
   private boolean helper(String s, int idx, int count) {
     if (idx == s.length()) {
-      if (count == 0) return true;
-      return false;
+      return count == 0;
     }
     if (count < 0) return false;
     char curr = s.charAt(idx);
