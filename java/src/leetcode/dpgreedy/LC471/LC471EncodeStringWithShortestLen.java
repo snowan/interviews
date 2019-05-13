@@ -49,6 +49,7 @@ package leetcode.dpgreedy.LC471;
 public class LC471EncodeStringWithShortestLen {
   /**
    * Solution: DP, dp[i][j] - min length of substring between index [i,j].
+   * https://github.com/snowan/interviews/blob/master/java/src/leetcode/dpgreedy/LC471/LC471EncodeStringWithShortestLen.md
    *
    * TC: O(n ^ 3) - n is the length of input String
    * SC: O(n ^ 2)
