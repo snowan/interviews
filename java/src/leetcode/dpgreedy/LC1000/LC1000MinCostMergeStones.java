@@ -49,6 +49,10 @@ public class LC1000MinCostMergeStones {
   /**
    * refer: https://leetcode.com/problems/minimum-cost-to-merge-stones/discuss/247657/JAVA-Bottom-Up-%2B-Top-Down-DP-With-Explaination
    * Solution: DP
+   * dp[i][j][k] - min cost to merge subarray from [i, j] into k piles
+   * init: dp[i][i][1] = 0 since no need to merge
+   * transition: dp[i][j[[k] = min(dp[i][j][k], dp[i][t][k - 1] + dp[t + 1][j][1]) (i <= t < j)
+   * dp[i][j][1] = dp[i][j][K] + presum[j] - presum[i - 1] (presum[i~j])
    *
    * TC: O(n^3 * K) - n is the length of stones
    * Sc: O(n^3)
@@ -63,7 +67,6 @@ public class LC1000MinCostMergeStones {
     for (int i = 1; i <= len; i++) {
       preSum[i] = preSum[i - 1] + stones[i - 1];
     }
-
     int[][][] dp = new int[len + 1][len + 1][K + 1];
     for (int i = 1; i <= len; i++) {
       for (int j = 1; j <= len; j++) {
