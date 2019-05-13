@@ -1,4 +1,4 @@
-### 471. Encode String with Shortest Length
+### [471. Encode String with Shortest Length](./LC471EncodeStringWithShortestLen.java)
 ---
 *Solution:* DP
 
