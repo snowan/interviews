@@ -1,4 +1,4 @@
- ### 516. Longest Palindromic Subsequence
+ ### [516. Longest Palindromic Subsequence](./LC516LongestPalindromeSubsequence.java)
  ---
  
  *Solution*: 
