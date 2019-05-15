@@ -11,9 +11,7 @@ class Solution:
             return 1
         if res[pos] != -1:
             return res[pos]
-        res_temp = 0
-        if int(s[pos: pos + 1]) != 0:
-            res_temp += self.test(s, pos + 1, res)
+        res_temp = self.test(s, pos + 1, res) if int(s[pos: pos + 1]) != 0 else 0
         if 10 <= int(s[pos: pos + 2]) <= 26:
             res_temp += self.test(s, pos + 2, res)
         res[pos] = res_temp
