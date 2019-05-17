@@ -43,6 +43,7 @@ public class LC1043PartitionArrMaxSum {
         dp[i] = Math.max(maxSum, dp[i]);
       }
     }
+
     System.out.println("Result= " + dp[len - 1]);
     return dp[len - 1];
   }
@@ -78,7 +79,7 @@ public class LC1043PartitionArrMaxSum {
         695743,413274,168693,368216,677201,198089,927218,633399,427645,317246,403380,908594,854847,157024,719715,336407,
         933488,599856,948361,765131,335089,522119,403981,866323,519161,109154,349141,764950,558613,692211};
     int K = 26;
-    maxSumAfterPartitioning(A, K);
+    maxSumAfterPartitioning(new int[]{1, 8, 7, 9}, K);
     maxSumPartition(A, K);
   }
 }
