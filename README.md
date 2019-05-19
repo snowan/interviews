@@ -13,3 +13,4 @@
 - [LC 639 Decode Ways II](./java/src/leetcode/dpgreedy/LC639)
 - [LC 1043 Partition Array for Maximum Sum](./java/src/leetcode/dpgreedy/LC1043)
 - [LC 689 Maximum Sum of 3 Non-Overlapping Subarrays](./java/src/leetcode/dpgreedy/LC689)
+- [LC 64 Minimum Path Sum](./java/src/leetcode/dpgreedy/LC64)
