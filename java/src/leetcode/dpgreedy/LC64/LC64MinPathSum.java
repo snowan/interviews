@@ -58,6 +58,35 @@ public class LC64MinPathSum {
   }
 
   /**
+   * Solution: DP, from above 2D matrix dp -> 1D dp.
+   * * init:
+   * dp[j] += dp[j - 1] + grid[0][j]
+   * transition:
+   * dp[j] = grid[i][j] + min(dp[c],dp[c - 1])
+   *
+   * TC: O(n*m)
+   * SC: O(m)
+   */
+  public int minPathSum2(int[][] grid) {
+    int row = grid.length;
+    int col = grid[0].length;
+    int[] dp = new int[col];
+    dp[0] = grid[0][0];
+    for (int c = 1; c < col; c++) {
+      dp[c] = dp[c - 1] + grid[0][c];
+    }
+    for (int r = 1; r < row; r++) {
+      for (int c = 0; c < col; c++) {
+        dp[c] += grid[r][c];
+        if (c > 0) {
+          dp[c] = Math.min(dp[c], dp[c - 1] + grid[r][c]);
+        }
+      }
+    }
+    return dp[col - 1];
+  }
+
+  /**
    * Solution: #2. Recursive + memorization
    *
    * TC: O(n*m)
