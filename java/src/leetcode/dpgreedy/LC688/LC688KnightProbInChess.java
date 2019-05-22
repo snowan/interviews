@@ -42,6 +42,8 @@ public class LC688KnightProbInChess {
    * when new cell (nr, nc) is out of board, continue
    * dp[s][i][j] += dp[s-1][nr][nc] / 8; (each cell has 8 directions to move, current probability from previous cell (nr, nc) / 8)
    *
+   * result: in step K, sum of all probability which on board
+   *
    * TC: O(N*N*K)
    * SC: (N*N*K)
    */
