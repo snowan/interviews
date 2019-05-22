@@ -16,3 +16,4 @@
 - [LC 64 Minimum Path Sum](./java/src/leetcode/dpgreedy/LC64)
 - [LC 174 Dungeon Game](./java/src/leetcode/dpgreedy/LC174)
 - [LC 576 Out of Boundary Paths](./java/src/leetcode/dpgreedy/LC576)
+- [LC 688 Knight Probability in Chessboard](./java/src/leetcode/dpgreedy/LC688)
