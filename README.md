@@ -17,3 +17,4 @@
 - [LC 174 Dungeon Game](./java/src/leetcode/dpgreedy/LC174)
 - [LC 576 Out of Boundary Paths](./java/src/leetcode/dpgreedy/LC576)
 - [LC 688 Knight Probability in Chessboard](./java/src/leetcode/dpgreedy/LC688)
+- [LC 935 Knight Dialer](./java/src/leetcode/dpgreedy/LC935)
