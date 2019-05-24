@@ -107,4 +107,9 @@ public class LC935KnightDialer {
     dp[N][num] = count;
     return count;
   }
+
+  /**
+   * Solution #3. refer to discussion: https://leetcode.com/problems/knight-dialer/discuss/189252/O(logN)
+   * O(logn)
+   */
 }
