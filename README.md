@@ -19,3 +19,4 @@
 - [LC 688 Knight Probability in Chessboard](./java/src/leetcode/dpgreedy/LC688)
 - [LC 935 Knight Dialer](./java/src/leetcode/dpgreedy/LC935)
 - [LC 568 Maximum Vacation Days](./java/src/leetcode/dpgreedy/LC568)
+- [LC 552 Student Attendance Record II](./java/src/leetcode/dpgreedy/LC552)
