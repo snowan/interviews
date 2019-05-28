@@ -22,3 +22,4 @@
 - [LC 552 Student Attendance Record II](./java/src/leetcode/dpgreedy/LC552)
 - [LC 377 Combination Sum IV](./java/src/leetcode/dpgreedy/LC377)
 - [LC 518 Coin Change 2](./java/src/leetcode/dpgreedy/LC518)
+- [LC 416 Partition Equal Subset Sum](./java/src/leetcode/dpgreedy/LC416)
