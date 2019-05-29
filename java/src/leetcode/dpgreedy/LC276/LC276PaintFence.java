@@ -1,4 +1,4 @@
-package leetcode.LC276;
+package leetcode.dpgreedy.LC276;
 
 /**
  * 276. Paint Fence
