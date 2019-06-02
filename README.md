@@ -29,4 +29,4 @@
 
 ---
 #### [String](https://github.com/snowan/interviews/tree/master/java/src/leetcode/string)
-- *LC 1062 Longest Repeating Substring* | [Java](./java/src/leetcode/string/LC1062) | 
+- *LC 1062 Longest Repeating Substring* | [Java](./java/src/leetcode/string/LC1062) | [Python3](./python/leetcode/LC1062/longest_repeat_substring.py)
