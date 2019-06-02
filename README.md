@@ -24,3 +24,4 @@
 - [LC 518 Coin Change 2](./java/src/leetcode/dpgreedy/LC518)
 - [LC 416 Partition Equal Subset Sum](./java/src/leetcode/dpgreedy/LC416)
 - [LC 276 Paint Fence](./java/src/leetcode/dpgreedy/LC276)
+- *LC 920 Number of Music Playlists* | [java](./java/src/leetcode/dpgreedy/LC920) | [python]./python/leetcode/LC920/number_music_playlist.py)
