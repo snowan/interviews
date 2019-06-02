@@ -25,3 +25,4 @@
 - [LC 416 Partition Equal Subset Sum](./java/src/leetcode/dpgreedy/LC416)
 - [LC 276 Paint Fence](./java/src/leetcode/dpgreedy/LC276)
 - *LC 920 Number of Music Playlists* | [Java](./java/src/leetcode/dpgreedy/LC920) | [Python](./python/leetcode/LC920/number_music_playlist.py)
+- *LC 1025 Divisor Game* | [Java](./java/src/leetcode/dpgreedy/LC1025) | [Python](./python/leetcode/LC1025/divisor_game.py)
