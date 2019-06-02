@@ -2,7 +2,7 @@
 
 ### Leetcode
 ---
-#### [DP](https://github.com/snowan/interviews/tree/master/java/src/leetcode/dp)
+#### [DP](https://github.com/snowan/interviews/tree/master/java/src/leetcode/dpgreedy)
 - [LC 516 Longest Palindrome Subsequence](./java/src/leetcode/dp/LC516LongestPalindromeSubsequence.java)
 - [LC 1024 Video Stitching](./java/src/leetcode/dp/LC1024VideoStitching.java)
 - [LC 678 Valid Parenthesis String](./java/src/leetcode/dp/LC678ValidParenthesisString.java)
@@ -26,3 +26,7 @@
 - [LC 276 Paint Fence](./java/src/leetcode/dpgreedy/LC276)
 - *LC 920 Number of Music Playlists* | [Java](./java/src/leetcode/dpgreedy/LC920) | [Python](./python/leetcode/LC920/number_music_playlist.py)
 - *LC 1025 Divisor Game* | [Java](./java/src/leetcode/dpgreedy/LC1025) | [Python](./python/leetcode/LC1025/divisor_game.py)
+
+---
+#### [String](https://github.com/snowan/interviews/tree/master/java/src/leetcode/string)
+- *LC 1062 Longest Repeating Substring* | [Java](./java/src/leetcode/string/LC1062) | 
