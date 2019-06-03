@@ -6,7 +6,7 @@ class Solution:
             for l in range(n - leng + 1):
                 r = l + leng - 1
                 temp = S[l: r + 1]
-                if (temp in substr):
+                if temp in substr:
                     return len(temp)
                 substr.add(temp)
             substr.clear()
