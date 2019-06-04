@@ -32,5 +32,5 @@
 - *LC 1062 Longest Repeating Substring* | [Java](./java/src/leetcode/string/LC1062) | [Python](./python/leetcode/LC1062/longest_repeat_substring.py)
 
 ---
-### [Recursive](https://github.com/snowan/interviews/tree/master/java/src/leetcode/recursion)
+### [Recursion](https://github.com/snowan/interviews/tree/master/java/src/leetcode/recursion)
 - *LC 1066 Campus Bikes II* | [Java](./java/src/leetcode/recursion/LC1066) | [Python]()
