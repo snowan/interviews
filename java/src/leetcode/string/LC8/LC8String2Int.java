@@ -52,6 +52,14 @@ package leetcode.string.LC8;
  *              Thefore INT_MIN (−231) is returned.
  */
 public class LC8String2Int {
+  /**
+   * Solution: read Notes carefully, considering:
+   *  1. trim input string, string.trim();
+   *  2. check whether first character is sign or not.
+   *  3. check valid number
+   *    a. not digit, break, return
+   *    b. check whether current num is out range (MIN, MAX), if so, return 0. otherwise continue.
+   */
   public int myAtoi(String str) {
     str = str.trim();
     if (str.length() == 0) return 0;
