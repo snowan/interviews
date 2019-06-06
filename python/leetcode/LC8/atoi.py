@@ -5,15 +5,15 @@ class Solution:
         if not str:
             return 0
         str_strip = str.strip()
-        if not str_strip or \
-            (not str_strip[0].isdigit() and str_strip[0] != '+' and str_strip[0] != '-'):
+        if not str_strip or (not str_strip[0].isdigit() and str_strip[0] != '+' and str_strip[0] != '-'):
             return 0
         pos = True
+        str_it = iter(str_strip)
         if not str_strip[0].isdigit():
             pos = str_strip[0] == '+'
-            str_strip = str_strip[1:]
+            next(str_it)
         res = 0.0
-        for c in str_strip:
+        for c in str_it:
             if not c.isdigit():
                 break
             res = res * 10 + int(c)
