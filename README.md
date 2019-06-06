@@ -8,7 +8,7 @@
 - [LC 678 Valid Parenthesis String](./java/src/leetcode/dp/LC678ValidParenthesisString.java)
 - [LC 471 Encode String with Shortest Length](./java/src/leetcode/dpgreedy/LC471)
 - [LC 1000 Minimum Cost to Merge Stones](./java/src/leetcode/dpgreedy/LC1000/LC1000MinCostMergeStones.java)
-- [LC 132 Palindrome Partitioning II](./java/src/leetcode/dpgreedy/LC132)
+- *LC 132 Palindrome Partitioning II* | [Java](./java/src/leetcode/dpgreedy/LC132) | [解题报告](https://snowan.github.io/post/lc132/)
 - [LC 91 Decode Ways](./java/src/leetcode/dpgreedy/LC91)
 - [LC 639 Decode Ways II](./java/src/leetcode/dpgreedy/LC639)
 - [LC 1043 Partition Array for Maximum Sum](./java/src/leetcode/dpgreedy/LC1043)
