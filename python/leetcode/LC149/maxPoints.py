@@ -2,8 +2,7 @@ import collections
 import functools
 import sys
 from typing import List
-from fractions import Fraction
-
+from math import gcd
 
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
@@ -18,8 +17,15 @@ class Solution:
                 if point2 == point:
                     dup += 1
                     continue
-                slope = Fraction(point2[1] - point[1], point2[0] -
-                                 point[0]) if point2[0] != point[0] else sys.maxsize
+                dx = point2[0] - point[0]
+                dy = point2[1] - point[1]
+                if dx == 0:
+                    slope = sys.maxsize
+                elif dy == 0:
+                    slope = 0
+                else:
+                    g = gcd(abs(dy), abs(dx))
+                    slope = '{}-{}-{}'.format((dx > 0) is (dy > 0), abs(dy) / g, abs(dx) / g)
                 slope_count[slope] += 1
             print(slope_count)
             res = max([res] + [(dup + count)
