@@ -36,3 +36,7 @@
 ---
 #### [Recursion](https://github.com/snowan/interviews/tree/master/java/src/leetcode/recursion)
 - *LC 1066 Campus Bikes II* | [Java](./java/src/leetcode/recursion/LC1066) | [Python]()
+
+
+#### [Math](https://github.com/snowan/interviews/tree/master/java/src/leetcode/math)
+- *LC 149 Max Points on a Line* | [Java]() | [Python]()
