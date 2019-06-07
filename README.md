@@ -39,4 +39,4 @@
 
 
 #### [Math](https://github.com/snowan/interviews/tree/master/java/src/leetcode/math)
-- *LC 149 Max Points on a Line* | [Java]() | [Python]()
+- *LC 149 Max Points on a Line* | [Java](./java/src/leetcode/math/LC149) | [Python]()
