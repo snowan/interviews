@@ -44,3 +44,6 @@
 
 #### [Binary Search](https://github.com/snowan/interviews/tree/master/java/src/leetcode/binarysearch)
 - *LC 29 Divide Two Integers* | [Java](./java/src/leetcode/binarysearch/LC29) | [Python]()
+
+#### [Array](https://github.com/snowan/interviews/tree/master/java/src/leetcode/array)
+- *LC 31 Next Permutation* | [Java](./java/src/leetcode/array/LC31) | [Python]()
