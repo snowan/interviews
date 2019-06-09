@@ -36,6 +36,7 @@ import java.util.Map;
  * to get new method signature.
  */
 public class LC149MaxPointsInLine {
+  // solution: https://snowan.github.io/post/lc149/
   public int maxPoints(int[][] points) {
     if (points == null) return 0;
     int len = points.length;
@@ -60,12 +61,12 @@ public class LC149MaxPointsInLine {
           line++;
           continue;
         }
-        int diffX = x[0] - y[0];
-        int diffY = x[1] - y[1];
-        int gcd = getGcd(diffX, diffY);
-        diffX /= gcd;
-        diffY /= gcd;
-        String slop =  diffY + "/" + diffX;
+        int deltaX = x[0] - y[0];
+        int deltaY = x[1] - y[1];
+        int gcd = getGcd(deltaX, deltaY);
+        deltaX /= gcd;
+        deltaY /= gcd;
+        String slop =  deltaY + "/" + deltaX;
         map.put(slop, map.getOrDefault(slop, 0) + 1);
         currMax = Math.max(currMax, map.get(slop));
       }

@@ -15,11 +15,11 @@ public class LC29DivideTwoInteger {
       if (ldividend >= sub) {
         res += multi;
         ldividend -= sub;
-        sub = sub << 1; // sub *= 2;
-        multi = multi << 1; // multi *= 2;
+        sub <<= 1; // sub *= 2;
+        multi <<= 1; // multi *= 2;
       } else {
-        sub = sub >> 1; // sub /= 2;
-        multi = multi >> 1; // multi /= 2;
+        sub >>= 1; // sub /= 2;
+        multi >>= 1; // multi /= 2;
       }
     }
     return isPositive ? (int)res : (int)-res;
