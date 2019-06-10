@@ -46,4 +46,4 @@
 - *LC 29 Divide Two Integers* | [Java](./java/src/leetcode/binarysearch/LC29) | [Python]()
 
 #### [Array](https://github.com/snowan/interviews/tree/master/java/src/leetcode/array)
-- *LC 31 Next Permutation* | [Java](./java/src/leetcode/array/LC31) | [Python]()
+- *LC 31 Next Permutation* | [Java](./java/src/leetcode/array/LC31) | [Python](./python/leetcode/LC31/solution.py)
