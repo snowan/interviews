@@ -14,18 +14,14 @@ class Solution:
         for i in range(w_len):
             temp_count = collections.defaultdict(int)
             left = i
-            count = 0
             for right in range(i, len(s) - w_len + 1, w_len):
                 temp_word = s[right: right + w_len]
                 if temp_word in w_count:
                     temp_count[temp_word] += 1
-                    count += 1
                     while temp_count[temp_word] > w_count[temp_word]:
                         temp_count[s[left: left + w_len]] -= 1
-                        count -= 1
                         left += w_len
-                    if count == w_num:
-                        count -= 1
+                    if right + w_len - left == w_num * w_len:
                         res.append(left)
                         temp_count[s[left: left + w_len]] -= 1
                         left += w_len
