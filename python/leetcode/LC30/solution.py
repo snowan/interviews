@@ -28,5 +28,4 @@ class Solution:
                 else:
                     left = right + w_len
                     temp_count.clear()
-                    count = 0
         return res
