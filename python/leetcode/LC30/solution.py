@@ -7,16 +7,14 @@ class Solution:
             return []
         w_num = len(words)
         w_len = len(words[0])
-        w_count = collections.defaultdict(int)
-        for word in words:
-            w_count[word] += 1
+        w_count = collections.Counter(words)
         res = []
         for i in range(w_len):
             temp_count = collections.defaultdict(int)
             left = i
             for right in range(i, len(s) - w_len + 1, w_len):
                 temp_word = s[right: right + w_len]
-                if temp_word in w_count:
+                if w_count[temp_word] > 0:
                     temp_count[temp_word] += 1
                     while temp_count[temp_word] > w_count[temp_word]:
                         temp_count[s[left: left + w_len]] -= 1
