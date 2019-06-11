@@ -49,4 +49,4 @@
 - *LC 31 Next Permutation* | [Java](./java/src/leetcode/array/LC31) | [Python](./python/leetcode/LC31/solution.py)
 
 #### [Two Pointers](https://github.com/snowan/interviews/tree/master/java/src/leetcode/twopointers)
-- *LC 30 Substring with Concatenation of All Words * | [Java]() | [Python](./python/leetcode/LC30/solution.py)
+- *LC 30 Substring with Concatenation of All Words* | [Java]() | [Python](./python/leetcode/LC30/solution.py)
