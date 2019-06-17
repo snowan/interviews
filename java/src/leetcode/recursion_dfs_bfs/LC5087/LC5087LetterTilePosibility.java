@@ -1,4 +1,4 @@
-package leetcode.recursion.LC5087;
+package leetcode.recursion_dfs_bfs.LC5087;
 
 import java.util.Arrays;
 

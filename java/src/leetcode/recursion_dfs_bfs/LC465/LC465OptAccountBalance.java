@@ -1,4 +1,4 @@
-package leetcode.recursion.LC465;
+package leetcode.recursion_dfs_bfs.LC465;
 
 import java.util.HashMap;
 import java.util.List;
@@ -49,7 +49,7 @@ import java.util.stream.Collectors;
  * Therefore, person #1 only need to give person #0 $4, and all debt is settled.
  */
 public class LC465OptAccountBalance {
-  public int minTransfers(int[][] transactions) {
+  public static int minTransfers(int[][] transactions) {
     if (transactions == null || transactions.length == 0) return 0;
     int len = transactions.length;
     if (len == 1) return 1;
@@ -64,18 +64,32 @@ public class LC465OptAccountBalance {
     return helper(0, debts);
   }
 
-  private int helper(int idx, List<Integer> debts) {
+  private static int helper(int idx, List<Integer> debts) {
+    System.out.println("current debts list: " + debts.toString());
+    System.out.println("==============================");
+    System.out.println("current index: " + idx);
     while (idx < debts.size() && debts.get(idx) == 0) idx++;
+    System.out.println("after 0, index: " + idx);
     if (idx == debts.size()) return 0;
     int counts = Integer.MAX_VALUE;
+    System.out.println("--------------------------------------");
     for (int i = idx + 1; i < debts.size(); i++) {
       // can be balanced
       if (debts.get(i) * debts.get(idx) < 0) {
+        System.out.println("able to balance, current i: " + i + ", current idx: " + idx + ", current debts[i]: " + debts.get(i));
         debts.set(i, debts.get(i) + debts.get(idx));
+        System.out.println("after set i : " + debts.get(i));
         counts = Math.min(counts, 1 + helper(idx + 1, debts));
         debts.set(i, debts.get(i) - debts.get(idx));
+        System.out.println("after backtracking debts : " + debts.toString());
+        System.out.println("backtracking: i: " + i + ", index: " + idx  + ", debts " + debts.get(i));
       }
     }
+    System.out.println("final counts: " + counts);
     return counts;
+  }
+
+  public static void main(String[] args) {
+    LC465OptAccountBalance.minTransfers(new int[][]{{0,1,10}, {2,0,5}});
   }
 }

@@ -1,4 +1,4 @@
-package leetcode.recursion.LC1066;
+package leetcode.recursion_dfs_bfs.LC1066;
 
 /**
  * 1066. Campus Bikes II
