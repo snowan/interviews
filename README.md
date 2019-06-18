@@ -32,6 +32,7 @@
 - *LC 1062 Longest Repeating Substring* | [Java](./java/src/leetcode/string/LC1062) | [Python](./python/leetcode/LC1062/longest_repeat_substring.py)
 - *LC 792 Number of Matching Subsequences* | [Java](./java/src/leetcode/string/LC792) | [Python](./python/leetcode/LC792/numMatchingSubseq.py) | [解题报告](https://snowan.github.io/post/lc792/)
 - *LC 8 String to Integer (atoi)* | [Java](./java/src/leetcode/string/LC8) | [Python](./python/leetcode/LC8/atoi.py)
+- *LC 459 Repeated Substring Pattern* | [Java](./java/src/leetcode/string/LC459)
 
 ---
 #### [Recursion](https://github.com/snowan/interviews/tree/master/java/src/leetcode/recursion_dfs_bfs)
