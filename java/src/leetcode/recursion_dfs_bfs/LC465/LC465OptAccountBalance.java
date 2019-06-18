@@ -65,31 +65,26 @@ public class LC465OptAccountBalance {
   }
 
   private static int helper(int idx, List<Integer> debts) {
-    System.out.println("current debts list: " + debts.toString());
-    System.out.println("==============================");
-    System.out.println("current index: " + idx);
+    // skip already 0 debts
     while (idx < debts.size() && debts.get(idx) == 0) idx++;
     System.out.println("after 0, index: " + idx);
     if (idx == debts.size()) return 0;
     int counts = Integer.MAX_VALUE;
-    System.out.println("--------------------------------------");
     for (int i = idx + 1; i < debts.size(); i++) {
       // can be balanced
       if (debts.get(i) * debts.get(idx) < 0) {
-        System.out.println("able to balance, current i: " + i + ", current idx: " + idx + ", current debts[i]: " + debts.get(i));
         debts.set(i, debts.get(i) + debts.get(idx));
         System.out.println("after set i : " + debts.get(i));
         counts = Math.min(counts, 1 + helper(idx + 1, debts));
         debts.set(i, debts.get(i) - debts.get(idx));
-        System.out.println("after backtracking debts : " + debts.toString());
-        System.out.println("backtracking: i: " + i + ", index: " + idx  + ", debts " + debts.get(i));
       }
     }
-    System.out.println("final counts: " + counts);
     return counts;
   }
 
   public static void main(String[] args) {
     LC465OptAccountBalance.minTransfers(new int[][]{{0,1,10}, {2,0,5}});
+    LC465OptAccountBalance.minTransfers(new int[][]{{0,1,10}, {1,0,1},{1,2,5},{2,0,5}}); // [0,1,10], [1,0,1], [1,2,5], [2,0,5]
+    LC465OptAccountBalance.minTransfers(new int[][]{{0,1,2},{0,2,4},{1,3,5},{2,3,4},{3,4,7}});
   }
 }
