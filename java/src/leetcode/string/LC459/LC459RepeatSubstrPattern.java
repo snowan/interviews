@@ -32,4 +32,10 @@ public class LC459RepeatSubstrPattern {
     }
     return false;
   }
+
+  public boolean repeatedSubstringPattern2(String s) {
+    if (s == null || s.length() == 0) return true;
+    int len = s.length();
+    return (s + s).substring(1, 2 * len - 1).contains(s);
+  }
 }
