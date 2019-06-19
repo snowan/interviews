@@ -43,6 +43,10 @@ import java.util.Arrays;
  * stones[i] have distinct values.
  */
 public class LC1040MovingStonesII {
+  /**
+   * Solution: refer to
+   * lee215: https://leetcode.com/problems/moving-stones-until-consecutive-ii/discuss/286707/JavaC%2B%2BPython-Sliding-Window
+   */
   public int[] numMovesStonesII(int[] stones) {
     int len = stones.length;
     Arrays.sort(stones);
