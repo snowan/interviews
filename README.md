@@ -55,6 +55,7 @@
 #### [Two Pointers](https://github.com/snowan/interviews/tree/master/java/src/leetcode/twopointers)
 - *LC 30 Substring with Concatenation of All Words* | [Java](./java/src/leetcode/twopointers/LC30) | [Python](./python/leetcode/LC30/solution.py) | [解题报告](https://snowan.github.io/post/lc30/)
 - *LC 828 Unique Letter String* | [Java](./java/src/leetcode/twopointers/LC828)
+- *LC 1040 Moving Stones Until Consecutive II* | [Java](./java/src/leetcode/twopointers/LC1040)
 
 #### [Tree](https://github.com/snowan/interviews/tree/master/java/src/leetcode/tree)
 - *LC 426 Convert Binary Search Tree to Sorted Doubly Linked List* | [Java](./java/src/leetcode/tree/LC426)
