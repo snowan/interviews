@@ -1,8 +1,6 @@
 package leetcode.dpgreedy.LC139;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 139. Word Break
@@ -30,6 +28,12 @@ import java.util.Set;
  * Output: false
  */
 public class LC139WordBreak {
+  /**
+   * Solution 1: DP
+   *
+   * TC: O(n^2)
+   * SC: O(n)
+   */
   public boolean wordBreak(String s, List<String> wordDict) {
     int len = s.length();
     boolean[] dp = new boolean[len + 1];
@@ -45,5 +49,30 @@ public class LC139WordBreak {
     }
 
     return dp[len];
+  }
+
+  /**
+   * Solution 2: recursion + memorization
+   */
+  public static boolean wordBreak2(String s, List<String> wordDict) {
+    int len = s.length();
+    return helper(s, new HashSet<>(wordDict), new HashSet<>(), 0);
+  }
+
+  private static boolean helper(String s, Set<String> words, Set<Integer> visited, int idx) {
+    if (idx == s.length()) return true;
+    if (visited.contains(idx)) return false;
+    for (int i = idx + 1; i <= s.length(); i++) {
+      if (words.contains(s.substring(idx, i))) {
+        if (helper(s, words, visited, i)) return true;
+        else visited.add(i);
+      }
+    }
+    visited.add(idx);
+    return false;
+  }
+
+  public static void main(String[] args) {
+    LC139WordBreak.wordBreak2("leetcode", Arrays.asList("leet", "code"));
   }
 }
