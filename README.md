@@ -43,6 +43,7 @@
 - *LC 1091 Shortest Path in Binary Matrix* | [Java](./java/src/leetcode/recursion_dfs_bfs/LC1091)
 - *LC 140 Word Break II* | [Java](./java/src/leetcode/recursion_dfs_bfs/LC140)
 - *LC 79 Word Search* | [Java](./java/src/leetcode/recursion_dfs_bfs/LC79)
+- *LC 212 Word Search II* | [Java](./java/src/leetcode/recursion_dfs_bfs/LC212)
 
 
 #### [Math](https://github.com/snowan/interviews/tree/master/java/src/leetcode/math)
