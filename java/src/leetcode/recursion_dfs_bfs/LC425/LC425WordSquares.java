@@ -95,7 +95,7 @@ public class LC425WordSquares {
     for (String w : words) {
       if (isMatching(w, curr, idx)) {
         curr.add(w);
-        helper(curr, idx + 1, word, res, map;
+        helper(curr, idx + 1, word, res, map);
         curr.remove(curr.size() - 1);
       }
     }
