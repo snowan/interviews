@@ -35,6 +35,7 @@
 - *LC 8 String to Integer (atoi)* | [Java](./java/src/leetcode/string/LC8) | [Python](./python/leetcode/LC8/atoi.py)
 - *LC 459 Repeated Substring Pattern* | [Java](./java/src/leetcode/string/LC459)
 - *LC 422 Valid Word Square* | [Java](./java/src/leetcode/string/LC422)
+- *LC 408 Valid Word Abbreviation* | [Java](./java/src/leetcode/string/LC408)
 
 ---
 #### [Recursion_DFS_BFS](https://github.com/snowan/interviews/tree/master/java/src/leetcode/recursion_dfs_bfs)
