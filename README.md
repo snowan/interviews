@@ -27,6 +27,7 @@
 - *LC 920 Number of Music Playlists* | [Java](./java/src/leetcode/dpgreedy/LC920) | [Python](./python/leetcode/LC920/number_music_playlist.py)
 - *LC 1025 Divisor Game* | [Java](./java/src/leetcode/dpgreedy/LC1025) | [Python](./python/leetcode/LC1025/divisor_game.py)
 - *LC 139 Word Break* | [Java](./java/src/leetcode/dpgreedy/LC139) | [Python](./python/leetcode/LC139/word_break.py)
+- *LC 1057 Campus Bikes* | [Java](./java/src/leetcode/dpgreedy/LC057)
 
 ---
 #### [String](https://github.com/snowan/interviews/tree/master/java/src/leetcode/string)
