@@ -56,6 +56,7 @@
 
 #### [Binary Search](https://github.com/snowan/interviews/tree/master/java/src/leetcode/binarysearch)
 - *LC 29 Divide Two Integers* | [Java](./java/src/leetcode/binarysearch/LC29) | [Python]()
+- *LC 1104 Path In Zigzag Labelled Binary Tree* | [Java](./java/src/leetcode/binarysearch/LC1104)
 
 #### [Array](https://github.com/snowan/interviews/tree/master/java/src/leetcode/array)
 - *LC 31 Next Permutation* | [Java](./java/src/leetcode/array/LC31) | [Python](./python/leetcode/LC31/solution.py)
