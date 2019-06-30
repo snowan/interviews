@@ -61,6 +61,7 @@
 - *LC 31 Next Permutation* | [Java](./java/src/leetcode/array/LC31) | [Python](./python/leetcode/LC31/solution.py)
 - *LC 1089 Duplicate Zeros* | [Java](./java/src/leetcode/array/LC1089)
 - *LC 1086 High Five* | [Java](./java/src/leetcode/array/LC1086)
+- *1103 Distribute Candies to People* | [Java](./java/src/leetcode/array/LC1103)
 
 #### [Two Pointers](https://github.com/snowan/interviews/tree/master/java/src/leetcode/twopointers)
 - *LC 30 Substring with Concatenation of All Words* | [Java](./java/src/leetcode/twopointers/LC30) | [Python](./python/leetcode/LC30/solution.py) | [解题报告](https://snowan.github.io/post/lc30/)
