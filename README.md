@@ -50,27 +50,35 @@
 - *LC 212 Word Search II* | [Java](./java/src/leetcode/recursion_dfs_bfs/LC212)
 - *LC 425 Word Squares* | [Java](./java/src/leetcode/recursion_dfs_bfs/LC425)
 
-
+---
 #### [Math](https://github.com/snowan/interviews/tree/master/java/src/leetcode/math)
 - *LC 149 Max Points on a Line* | [Java](./java/src/leetcode/math/LC149) | [Python](./python/leetcode/LC149/maxPoints.py) | [解题报告](https://snowan.github.io/post/lc149/)
 
+---
 #### [Binary Search](https://github.com/snowan/interviews/tree/master/java/src/leetcode/binarysearch)
 - *LC 29 Divide Two Integers* | [Java](./java/src/leetcode/binarysearch/LC29) | [Python]()
 - *LC 1104 Path In Zigzag Labelled Binary Tree* | [Java](./java/src/leetcode/binarysearch/LC1104)
 
+
+---
 #### [Array](https://github.com/snowan/interviews/tree/master/java/src/leetcode/array)
 - *LC 31 Next Permutation* | [Java](./java/src/leetcode/array/LC31) | [Python](./python/leetcode/LC31/solution.py)
 - *LC 1089 Duplicate Zeros* | [Java](./java/src/leetcode/array/LC1089)
 - *LC 1086 High Five* | [Java](./java/src/leetcode/array/LC1086)
 - *1103 Distribute Candies to People* | [Java](./java/src/leetcode/array/LC1103)
 
+---
 #### [Two Pointers](https://github.com/snowan/interviews/tree/master/java/src/leetcode/twopointers)
 - *LC 30 Substring with Concatenation of All Words* | [Java](./java/src/leetcode/twopointers/LC30) | [Python](./python/leetcode/LC30/solution.py) | [解题报告](https://snowan.github.io/post/lc30/)
 - *LC 828 Unique Letter String* | [Java](./java/src/leetcode/twopointers/LC828)
 - *LC 1040 Moving Stones Until Consecutive II* | [Java](./java/src/leetcode/twopointers/LC1040)
 
+---
 #### [Tree](https://github.com/snowan/interviews/tree/master/java/src/leetcode/tree)
 - *LC 426 Convert Binary Search Tree to Sorted Doubly Linked List* | [Java](./java/src/leetcode/tree/LC426)
 
+---
 #### [Union Find](https://github.com/snowan/interviews/tree/master/java/src/leetcode/unionfind)
-- *1061 Lexicographically Smallest Equivalent String* | [Java](./java.src/leetcode/unionfind/LC1061)
+- *1061 Lexicographically Smallest Equivalent String* | [Java](./java/src/leetcode/unionfind/LC1061)
+
+---
