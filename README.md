@@ -71,3 +71,6 @@
 
 #### [Tree](https://github.com/snowan/interviews/tree/master/java/src/leetcode/tree)
 - *LC 426 Convert Binary Search Tree to Sorted Doubly Linked List* | [Java](./java/src/leetcode/tree/LC426)
+
+#### [Union Find](https://github.com/snowan/interviews/tree/master/java/src/leetcode/unionfind)
+- *1061 Lexicographically Smallest Equivalent String* | [Java](./java.src/leetcode/unionfind/LC1061)
