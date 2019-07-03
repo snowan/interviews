@@ -57,10 +57,10 @@ public class LC926FlipString2MonotoneIncrease {
     int countZero = 0;
     int countOne = 0;
     for (char ch : S.toCharArray()) {
+      countOne = Math.min(countOne, countZero);
       if (ch == '0') {
-        countOne = Math.min(countOne, countZero) + 1;
+        countOne++;
       } else {
-        countOne = Math.min(countOne, countZero);
         countZero++;
       }
     }
