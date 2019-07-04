@@ -1,4 +1,4 @@
-package leetcode.linkedlist;
+package leetcode.linkedlist.LC369;
 
 /**
  * 369. Plus One Linked List
