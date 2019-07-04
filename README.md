@@ -83,3 +83,6 @@
 - *1061 Lexicographically Smallest Equivalent String* | [Java](./java/src/leetcode/unionfind/LC1061)
 
 ---
+
+#### [Linked List](https://github.com/snowan/interview/tree/master/java/src/leetcode/linkedlist)
+- *LC 369 Plus One Linked List* | [Java](./java/src/leetcode/linkedlist/LC369)
