@@ -1,4 +1,4 @@
-package leetcode.linkedlist.LC369;
+package leetcode.linkedlist;
 
 /**
  * 369. Plus One Linked List
@@ -17,6 +17,10 @@ public class LC369PlusOneLinkedList {
   class ListNode {
     int val;
     ListNode next;
+
+    public ListNode(int val) {
+      this.val = val;
+    }
   }
 
   public ListNode plusOne(ListNode head) {
