@@ -85,4 +85,4 @@
 ---
 
 #### [Linked List](https://github.com/snowan/interviews/tree/master/java/src/leetcode/linkedlist)
-- *LC 369 Plus One Linked List* | [Java](./java/src/leetcode/linkedlist/LC369)
+- *LC 369 Plus One Linked List* | [Java](./java/src/leetcode/linkedlist/LC369) | [Python](./python/leetcode/LC369/plus_one_linkedlist.py)
