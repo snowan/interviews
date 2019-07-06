@@ -80,9 +80,16 @@
 
 ---
 #### [Union Find](https://github.com/snowan/interviews/tree/master/java/src/leetcode/unionfind)
-- *1061 Lexicographically Smallest Equivalent String* | [Java](./java/src/leetcode/unionfind/LC1061)
+- *1061 Lexicographically Smallest Equivalent String* | [Java](./java/src/leetcode/unionfind/LC1061) 
 
 ---
 
 #### [Linked List](https://github.com/snowan/interviews/tree/master/java/src/leetcode/linkedlist)
 - *LC 369 Plus One Linked List* | [Java](./java/src/leetcode/linkedlist/LC369) | [Python](./python/leetcode/LC369/plus_one_linkedlist.py)
+
+
+---
+
+### Data Structures 
+---
+- [Union Find](https://snowan.github.io/post/union-find/)
