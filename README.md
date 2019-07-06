@@ -77,6 +77,7 @@
 ---
 #### [Tree](https://github.com/snowan/interviews/tree/master/java/src/leetcode/tree)
 - *LC 426 Convert Binary Search Tree to Sorted Doubly Linked List* | [Java](./java/src/leetcode/tree/LC426)
+- *LC 545 Boundary of Binary Tree* | [Java](./java/src/leetcode/tree/LC545)
 
 ---
 #### [Union Find](https://github.com/snowan/interviews/tree/master/java/src/leetcode/unionfind)
