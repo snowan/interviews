@@ -40,6 +40,7 @@
 - *LC 422 Valid Word Square* | [Java](./java/src/leetcode/string/LC422)
 - *LC 408 Valid Word Abbreviation* | [Java](./java/src/leetcode/string/LC408)
 - *LC 1065 Index Pairs of a String* | [Java](./java/src/leetcode/string/LC1065)
+- *LC 1108 Defanging an IP Address* | [Java](./java/src/leetcode/string/LC1108)
 
 ---
 #### [Recursion_DFS_BFS](https://github.com/snowan/interviews/tree/master/java/src/leetcode/recursion_dfs_bfs)
