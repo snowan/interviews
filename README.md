@@ -95,6 +95,17 @@
 
 ---
 
+#### [Hash Table](https://github.com/snowan/interviews/tree/master/java/src/leetcode/hashtable)
+- *LC 398 Random Pick Index*| [Java](./java/src/leetcode/hashtable/LC398)
+
+---
+
 ### Data Structures 
 ---
 - [Union Find](https://snowan.github.io/post/union-find/)
+
+
+----
+### Java8 Feature demos
+---
+- *[Exception handleing in Lambda Function](./java/src/java8demos/LambadaExceptionHandling)* 
