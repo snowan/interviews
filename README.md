@@ -96,7 +96,7 @@
 ---
 
 #### [Hash Table](https://github.com/snowan/interviews/tree/master/java/src/leetcode/hashtable)
-- *LC 398 Random Pick Index*| [Java](./java/src/leetcode/hashtable/LC398)
+- *LC 398 Random Pick Index* | [Java](./java/src/leetcode/hashtable/LC398)
 
 ---
 
