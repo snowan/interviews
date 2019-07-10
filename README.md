@@ -108,4 +108,5 @@
 ----
 ### Java8 Feature demos
 ---
-- *[Exception handleing in Lambda Function](./java/src/main.java8demos/LambadaExceptionHandling)* 
+- *[Exception handling in Lambda Function](./java/src/main/java8demos/LambadaExceptionHandling)* 
+- *[Function Exception handling](./java/src/main/java8demos/function)*
