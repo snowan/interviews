@@ -3,11 +3,11 @@
 ### Leetcode
 ---
 #### [DP](https://github.com/snowan/interviews/tree/master/java/src/main/leetcode/dpgreedy)
-- *LC 516 Longest Palindrome Subsequence* | [Java](./java/src/main/leetcode/dp/LC516LongestPalindromeSubsequence.java)
-- *LC 1024 Video Stitching* | [Java](./java/src/main/leetcode/dp/LC1024VideoStitching.java)
-- *LC 678 Valid Parenthesis String* | [Java](./java/src/main/leetcode/dp/LC678ValidParenthesisString.java)
+- *LC 516 Longest Palindrome Subsequence* | [Java](./java/src/main/leetcode/dpgreedy/LC516)
+- *LC 1024 Video Stitching* | [Java](./java/src/main/leetcode/dp/LC1024)
+- *LC 678 Valid Parenthesis String* | [Java](./java/src/main/leetcode/dp/LC678)
 - *LC 471 Encode String with Shortest Length* | [Java](./java/src/main/leetcode/dpgreedy/LC471)
-- *LC 1000 Minimum Cost to Merge Stones* | [Java](./java/src/main/leetcode/dpgreedy/LC1000/LC1000MinCostMergeStones.java)
+- *LC 1000 Minimum Cost to Merge Stones* | [Java](./java/src/main/leetcode/dpgreedy/LC1000)
 - *LC 132 Palindrome Partitioning II* | [Java](./java/src/main/leetcode/dpgreedy/LC132) | [解题报告](https://snowan.github.io/post/lc132/)
 - *LC 91 Decode Ways* | [Java](./java/src/main/leetcode/dpgreedy/LC91)
 - *LC 639 Decode Ways II* | [Java](./java/src/main/leetcode/dpgreedy/LC639)
