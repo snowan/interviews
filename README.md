@@ -97,6 +97,7 @@
 
 #### [Reservoir Sampling](https://github.com/snowan/interviews/tree/master/java/src/main/leetcode/reservoirsample)
 - *LC 398 Random Pick Index* | [Java](./java/src/main/leetcode/reservoirsample/LC398)
+- *LC 528 Random Pick with Weight* | [Java](./java/src/main/leetcode/reservoirsample/LC528)
 
 ---
 
