@@ -1,4 +1,4 @@
-package main.leetcode.hashtable.LC398;
+package main.leetcode.reservoirsample.LC398;
 
 import java.util.*;
 
