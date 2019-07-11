@@ -1,6 +1,7 @@
 package main.leetcode.reservoirsample.LC528;
 
 import java.util.Random;
+import java.util.TreeMap;
 
 /**
  * 528. Random Pick with Weight
@@ -53,7 +54,7 @@ public class LC528RandomPickWithWeight {
   private int[] preSum;
   private int sum;
   private int len;
-  Random random;
+  private Random random;
   public LC528RandomPickWithWeight(int[] w) {
     preSum = w;
     len = w.length;
@@ -78,5 +79,26 @@ public class LC528RandomPickWithWeight {
       }
     }
     return lo;
+  }
+
+  /**
+   * Solution #2: use TreeMap
+   */
+  private TreeMap<Integer, Integer> map;
+  private int count;
+  private Random rnd;
+  public LC528RandomPickWithWeight(int[] w, int size) {
+    map = new TreeMap<>();
+    for (int i = 0; i < size; i++) {
+      count += w[i];
+      map.put(count, i);
+    }
+    rnd = new Random();
+  }
+
+  public int randomePickIndex() {
+    int pick = rnd.nextInt(count);
+    int key = map.higherKey(pick);
+    return map.get(key);
   }
 }
