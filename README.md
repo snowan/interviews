@@ -45,7 +45,7 @@
 ---
 #### [Recursion_DFS_BFS](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/recursion_dfs_bfs)
 - *LC 1066 Campus Bikes II* | [Java](./javasolution/src/main/java/leetcode/recursion/LC1066) | [Python]()
-- *LC 5087 Letter Tile Possibilities* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC5087) | [Python]()
+- *LC 5087 Letter Tile Possibilities* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC5087)
 - *LC 465 Optimal Account Balancing* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC465) | [解题报告](https://snowan.github.io/post/lc465/)
 - *LC 1091 Shortest Path in Binary Matrix* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1091)
 - *LC 140 Word Break II* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC140)
