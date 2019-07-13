@@ -112,7 +112,8 @@
 
 
 ----
-### Java8 Feature demos
+### Java demos
 ---
 - *[Exception handling in Lambda Function](./javasolution/src/main/java/java8demos/LambadaExceptionHandling)* 
 - *[Function Exception handling](./javasolution/src/main/java/java8demos/function)*
+- *[Concurrent](./javasolution/src/main/java/java8demos/concurrent)*
