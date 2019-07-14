@@ -34,12 +34,10 @@ public class PrintZeroEvenOddReentrantLock {
           System.out.println("Thread zero - " + 0);
           isStartZero = false;
           if (i % 2 == 0) {
-            isStartOdd = false;
             isStartEven = true;
             even.signal();
           } else {
             isStartOdd = true;
-            isStartEven = false;
             odd.signal();
           }
         } catch (InterruptedException e) {
