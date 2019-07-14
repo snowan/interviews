@@ -4,12 +4,12 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
-public class PrintZeroOddEvenAlternatively {
+public class PrintZeroOddEvenSemaphore {
   private int num;
   private Semaphore zero;
   private Semaphore odd;
   private Semaphore even;
-  public PrintZeroOddEvenAlternatively(int num) {
+  public PrintZeroOddEvenSemaphore(int num) {
     this.num = num;
     zero = new Semaphore(1);
     odd = new Semaphore(0);
@@ -75,7 +75,7 @@ public class PrintZeroOddEvenAlternatively {
   }
 
   public static void main(String[] args) {
-    PrintZeroOddEvenAlternatively test = new PrintZeroOddEvenAlternatively(5);
+    PrintZeroOddEvenSemaphore test = new PrintZeroOddEvenSemaphore(5);
     test.printNumber();
   }
 }
