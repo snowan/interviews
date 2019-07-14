@@ -82,6 +82,9 @@
 #### [Tree](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/tree)
 - *LC 426 Convert Binary Search Tree to Sorted Doubly Linked List* | [Java](./javasolution/src/main/java/leetcode/tree/LC426)
 - *LC 545 Boundary of Binary Tree* | [Java](./javasolution/src/main/java/leetcode/tree/LC545)
+- *LC 94 Binary Tree Inorder Traversal* | [Java](./javasolution/src/main/java/leetcode/tree/LC94)
+- *LC 144 Binary Tree Preorder Traversal* | [Java](./javasolution/src/main/java/leetcode/tree/LC144)
+- *LC 145 Binary Tree Postorder Traversal* | [Java](./javasolution/src/main/java/leetcode/tree/LC145)
 
 ---
 #### [Union Find](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/unionfind)
