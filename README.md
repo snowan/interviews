@@ -117,3 +117,5 @@
 - *[Exception handling in Lambda Function](./javasolution/src/main/java/java8demos/LambadaExceptionHandling)* 
 - *[Function Exception handling](./javasolution/src/main/java/java8demos/function)*
 - *[Concurrent](./javasolution/src/main/java/java8demos/concurrent)*
+- *[Two Threads print A and B alternatively with Semaphore](./javasolution/src/main/java/java8demos/concurrent/PrintABAlternativelySemaphore.java)*
+- *[Two Threads print A and B alternatively with ReentrantLock and Condition](./javasolution/src/main/java/java8demos/concurrent/PrintABAlternativelyReentrantLock.java)*
