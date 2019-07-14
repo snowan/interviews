@@ -119,4 +119,4 @@
 - *[Concurrent](./javasolution/src/main/java/java8demos/concurrent)*
 - *[Two Threads print A and B alternatively with Semaphore](./javasolution/src/main/java/java8demos/concurrent/PrintABAlternativelySemaphore.java)*
 - *[Two Threads print A and B alternatively with ReentrantLock and Condition](./javasolution/src/main/java/java8demos/concurrent/PrintABAlternativelyReentrantLock.java)*
-- *[Three Threads print zero, odd and even number alternatively(./javasolution/src/main/java/java8demos/concurrent/PrintZeroEvenOddReentrantLock.java)*
+- *[Three Threads print zero, odd and even number alternatively](./javasolution/src/main/java/java8demos/concurrent/PrintZeroEvenOddReentrantLock.java)*
