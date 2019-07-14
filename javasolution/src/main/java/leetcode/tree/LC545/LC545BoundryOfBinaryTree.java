@@ -1,5 +1,7 @@
 package leetcode.tree.LC545;
 
+import leetcode.tree.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -58,11 +60,6 @@ import java.util.List;
  * So order them in anti-clockwise without duplicate nodes we have [1,2,4,7,8,9,10,6,3].
  */
 public class LC545BoundryOfBinaryTree {
-  class TreeNode {
-    int val;
-    TreeNode left, right;
-  }
-
   public List<Integer> boundaryOfBinaryTree(TreeNode root) {
     List<Integer> res = new ArrayList<>();
     if (root == null) return res;
