@@ -71,6 +71,7 @@
 - *LC 1086 High Five* | [Java](./javasolution/src/main/java/leetcode/array/LC1086)
 - *1103 Distribute Candies to People* | [Java](./javasolution/src/main/java/leetcode/array/LC1103)
 - *LC 1109 Corporate Flight Bookings* | [Java](./javasolution/src/main/java/leetcode/array/LC1109)
+- *LC 1122 Relative Sort Array* | [Java](./javasolution/src/main/java/leetcode/array/LC1122)
 
 ---
 #### [Two Pointers](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/twopointers)
