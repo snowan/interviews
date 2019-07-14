@@ -1,7 +1,5 @@
 package leetcode.array.LC1122;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
