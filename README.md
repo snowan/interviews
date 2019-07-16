@@ -115,6 +115,9 @@
 ### Data Structures 
 ---
 - [Union Find](https://snowan.github.io/post/union-find/)
+- [UnionFind - Quick Find)(./javasolution/src/main/java/leetcode/unionfind/QuickFind.java)
+- [UnionFind - Quick Union)(./javasolution/src/main/java/leetcode/unionfind/QuickUnion.java)
+- [UnionFind - Weighter Quick Union)(./javasolution/src/main/java/leetcode/unionfind/WeighterQuickFind.java)
 
 
 ----
