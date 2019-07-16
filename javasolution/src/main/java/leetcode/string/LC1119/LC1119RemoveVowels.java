@@ -25,7 +25,7 @@ import java.util.Set;
 public class LC1119RemoveVowels {
   // Solution #1. regex, replace all vowels to ""
   public String removeVowels(String S) {
-    return S.replaceAll("a|A|i|I|u|U|e|E|o|O", "");
+    return S.replaceAll("[aAiIuUeEoO]", "");
   }
 
   // Solution #2, add all vowels into set, loop through String S, build new string which are not vowels
