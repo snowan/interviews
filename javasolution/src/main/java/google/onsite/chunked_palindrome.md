@@ -48,7 +48,8 @@ Product of K consecutive numbers
 
 例如， "aaaaaa"， 可以切分成 "aaa)(aaa)" - 2， 但是这里要求最多分块， 这样就是最多的"(a)(a)(a)(a)(a)(a)" - 6
 
-### 思路
+### 解题
+#### 解法一，
 分析， 满足回文字符串的要求是，从前读和从后读是一样的， 例如， "aba"， "anna"，"madam" 等
 
 那么这里就可以分别从前（l）和从后（r）扫描，l 和 r 记录前后扫描的index， 然后用pre_l and pre_r 记录前一次扫描到的可以分块的回文位置，
@@ -59,5 +60,32 @@ Product of K consecutive numbers
 
 例如："volvolvo"
 
+![alt text](../.../../../../resources/img/chunked_palindrom.png)
 
-#### 方法一，
+**Java 代码实现**
+```java
+public static int maxChunkedPalindrome2(String s) {
+    if (s == null || s.length() == 0) return 0;
+    int l = 0;
+    int r = s.length() - 1;
+    int max = 0;
+    int preL = l;
+    int preR = r;
+    while (l < r) {
+      String prefix = s.substring(preL, l + 1); // include right
+      String sufix = s.substring(r, preR + 1);
+      if (prefix.equals(sufix)) {
+        preL = l + 1;
+        preR = r - 1;
+        max += 2;
+      }
+      l++;
+      r--;
+    }
+    if (preL <= preR) max++;
+    System.out.println("max chunk palindrom: " + max);
+    return max;
+  }
+```
+
+#### 解法二
