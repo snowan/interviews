@@ -126,8 +126,9 @@
 ---
 ---
 
-### Google Onsite
+### Google Problems
 - *Max Chunked Palindrome* | [Java](./javasolution/src/main/java/google/ChunkedPalindrome.java)
+- *Min Days to Bloom* | [Java](./javasolution/src/main/java/google/MinDays2Bloom.java)
 
 
 ---
