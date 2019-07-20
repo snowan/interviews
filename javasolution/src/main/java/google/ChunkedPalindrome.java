@@ -24,6 +24,33 @@ public class ChunkedPalindrome {
     return max;
   }
 
+  public static int maxChunkedPalindrome(String s) {
+    if (s == null || s.length() == 0) return 0;
+    int max = helper(s, 0, 0, s);
+    System.out.println("max chunk palindrom: " + max);
+    return max;
+  }
+
+  private static int helper(String curr, int count, int len, String s) {
+    if (curr == null || curr.isEmpty()) return count;
+    if (curr.length() <= 1) {
+      if (count != 0 && s.length() - len <= 1) {
+        return count + 1;
+      } else return 1;
+    }
+    int currLen = curr.length();
+    // get left and right substring and compare
+    for (int i = 0; i < currLen / 2; i++) {
+      String left = curr.substring(0, i + 1);
+      String right = curr.substring(currLen - 1 - i, currLen);
+      if (left.equals(right)) {
+        return helper(curr.substring(i + 1, currLen - 1 - i),
+            count + 2, len + (i + 1) * 2, s);
+      }
+    }
+    return count + 1;
+  }
+
   public static void main(String[] args) {
     ChunkedPalindrome.maxChunkedPalindrome2("volvol");
     ChunkedPalindrome.maxChunkedPalindrome2("volvolvo");
@@ -32,5 +59,14 @@ public class ChunkedPalindrome {
     ChunkedPalindrome.maxChunkedPalindrome2("antaprezatepzapreanta");
     ChunkedPalindrome.maxChunkedPalindrome2("voabcvo");
     ChunkedPalindrome.maxChunkedPalindrome2("valve");
+
+    System.out.println("============================================");
+    ChunkedPalindrome.maxChunkedPalindrome("volvol");
+    ChunkedPalindrome.maxChunkedPalindrome("volvolvo");
+    ChunkedPalindrome.maxChunkedPalindrome("vovo");
+    ChunkedPalindrome.maxChunkedPalindrome("aaaaaa");
+    ChunkedPalindrome.maxChunkedPalindrome("antaprezatepzapreanta");
+    ChunkedPalindrome.maxChunkedPalindrome("voabcvo");
+    ChunkedPalindrome.maxChunkedPalindrome("valve");
   }
 }

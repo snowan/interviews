@@ -64,28 +64,75 @@ Product of K consecutive numbers
 
 **Java 代码实现**
 ```java
-public static int maxChunkedPalindrome2(String s) {
-    if (s == null || s.length() == 0) return 0;
-    int l = 0;
-    int r = s.length() - 1;
-    int max = 0;
-    int preL = l;
-    int preR = r;
-    while (l < r) {
-      String prefix = s.substring(preL, l + 1); // include right
-      String sufix = s.substring(r, preR + 1);
-      if (prefix.equals(sufix)) {
-        preL = l + 1;
-        preR = r - 1;
-        max += 2;
+class ChunkedPalindrom {
+    public static int maxChunkedPalindrome2(String s) {
+        if (s == null || s.length() == 0) return 0;
+        int l = 0;
+        int r = s.length() - 1;
+        int max = 0;
+        int preL = l;
+        int preR = r;
+        while (l < r) {
+          String prefix = s.substring(preL, l + 1); // include right
+          String sufix = s.substring(r, preR + 1);
+          if (prefix.equals(sufix)) {
+            preL = l + 1;
+            preR = r - 1;
+            max += 2;
+          }
+          l++;
+          r--;
+        }
+        if (preL <= preR) max++;
+        System.out.println("max chunk palindrom: " + max);
+        return max;
       }
-      l++;
-      r--;
-    }
-    if (preL <= preR) max++;
-    System.out.println("max chunk palindrom: " + max);
-    return max;
+  }
+```
+**时间复杂度：O(N^2) - N is the s length, s.substring()时间复杂度是O(n)**
+
+**空间复杂度：O(1) - 没有额外的空间**
+
+#### 解法二
+从解法一中我们可以看到palindome 左右对称， 所以可以从左和右，用递归求解。
+如下图例子， 可以从左起子字符串匹配最右起的子字符串。绿色框框，如果匹配， 递归的计算最长的回文，即每次碰到回文就计算 +2，
+直到最后字符串中没有匹配的回文，或者是匹配到最后， 退出， 返回结果。
+
+例如："volvolvo"
+
+![alt text](../../../resources/img/chunked_palindrom_recusive.png)
+
+**Java code 实现**
+```java
+class ChunkedPalindrome {
+    public static int maxChunkedPalindrome(String s) {
+        if (s == null || s.length() == 0) return 0;
+        return helper(s, 0, 0, s);
+      }
+    
+      private static int helper(String curr, int count, int len, String s) {
+        // no substring left, return current count
+        if (curr == null || curr.isEmpty()) return count;
+        if (curr.length() <= 1) {
+          if (count != 0 && s.length() - len <= 1) {
+            return count + 1;
+          } else return 1;
+        }
+        int currLen = curr.length();
+        // get left and right substring and compare
+        for (int i = 0; i < currLen / 2; i++) {
+          String left = curr.substring(0, i + 1);
+          String right = curr.substring(currLen - 1 - i, currLen);
+          if (left.equals(right)) {
+            // if left and right match, then continue match the rest substring (s - left - right)
+            return helper(curr.substring(i + 1, currLen - 1 - i),
+                count + 2, len + (i + 1) * 2, s);
+          }
+        }
+        return count + 1;
+      }
   }
 ```
 
-#### 解法二
+#### References
+1. [Longest Possible Chunked Palindrome](https://www.geeksforgeeks.org/longest-possible-chunked-palindrome/)
