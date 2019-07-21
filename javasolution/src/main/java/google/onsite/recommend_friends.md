@@ -33,7 +33,7 @@ So return 4.
 - 然后找有最多相同一级朋友的二级朋友。
 
 如下图：
-![alt text](../.../../../../resources/img/recommend_friend.png)
+![alt text](../.../../../../resources/img/recommend_friend.PNG)
 
 **Java Code 实现：**
 
