@@ -29,7 +29,7 @@ public class RecommendFriend {
       graph.computeIfAbsent(f[1], c -> new HashSet<>()).add(f[0]);
     }
     if (!graph.containsKey(id)) return -1;
-    int max = 0;
+    int max = -1;
     int res = -1;
     for (Map.Entry<Integer, Set<Integer>> entry : graph.entrySet()) {
       Set<Integer> comm = graph.get(id);
