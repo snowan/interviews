@@ -129,6 +129,7 @@
 ### Google Problems
 - *[Max Chunked Palindrome](./javasolution/src/main/java/google/onsite/chunked_palindrome.md)* | [Java](./javasolution/src/main/java/google/ChunkedPalindrome.java) | [详解](./javasolution/src/main/java/google/onsite/chunked_palindrome.md)
 - *Min Days to Bloom* | [Java](./javasolution/src/main/java/google/MinDays2Bloom.java)
+- *Recommend Friend* | [Java](./javasolution/src/main/java/google/RecommendFriend.java) | [详解](./javasolution/src/main/java/google/onsite/recommend_friends.md)
 
 
 ---
