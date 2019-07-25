@@ -31,6 +31,7 @@
 - *LC 926 Flip String to Monotone Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC926) | [Python](./python/main/leetcode/LC926/flip_string_to_monotone_increase.py)
 - *LC 801 Minimum Swaps To Make Sequences Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC801)
 
+
 ---
 #### [String](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/string)
 - *LC 1062 Longest Repeating Substring* | [Java](./javasolution/src/main/java/leetcode/string/LC1062) | [Python](./python/main/leetcode/LC1062/longest_repeat_substring.py)
@@ -42,6 +43,7 @@
 - *LC 1065 Index Pairs of a String* | [Java](./javasolution/src/main/java/leetcode/string/LC1065)
 - *LC 1108 Defanging an IP Address* | [Java](./javasolution/src/main/java/leetcode/string/LC1108)
 - *LC 1119 Remove Vowels from a String* | [Java](./javasolution/src/main/java/leetcode/string/LC1119) | [Python](./python/leetcode/LC1119/remove_vowels.py)
+
 
 ---
 #### [Recursion_DFS_BFS](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/recursion_dfs_bfs)
@@ -56,9 +58,11 @@
 - *LC 130 Surrounded Regions* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC130)
 - *LC 1129 Shortest Path with Alternating Colors* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1129)
 
+
 ---
 #### [Math](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/math)
 - *LC 149 Max Points on a Line* | [Java](./javasolution/src/main/java/leetcode/math/LC149) | [Python](./python/main/leetcode/LC149/maxPoints.py) | [解题报告](https://snowan.github.io/post/lc149/)
+
 
 ---
 #### [Binary Search](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/binarysearch)
@@ -82,6 +86,7 @@
 - *LC 828 Unique Letter String* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC828)
 - *LC 1040 Moving Stones Until Consecutive II* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC1040)
 
+
 ---
 #### [Tree](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/tree)
 - *LC 426 Convert Binary Search Tree to Sorted Doubly Linked List* | [Java](./javasolution/src/main/java/leetcode/tree/LC426)
@@ -92,21 +97,22 @@
 - *LC 102 Binary Tree Level Order Traversal* | [Java](./javasolution/src/main/java/leetcode/tree/LC102)
 - *LC 1120 Maximum Average Subtree* | [Java](./javasolution/src/main/java/leetcode/tree/LC1120)
 
+
 ---
 #### [Union Find](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/unionfind)
 - *1061 Lexicographically Smallest Equivalent String* | [Java](./javasolution/src/main/java/leetcode/unionfind/LC1061) 
 
----
 
+---
 #### [Linked List](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/linkedlist)
 - *LC 369 Plus One Linked List* | [Java](./javasolution/src/main/java/leetcode/linkedlist/LC369) | [Python](./python/main/leetcode/LC369/plus_one_linkedlist.py)
 
 
 ---
-
 #### [Reservoir Sampling](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/reservoirsample)
 - *LC 398 Random Pick Index* | [Java](./javasolution/src/main/java/leetcode/reservoirsample/LC398)
 - *LC 528 Random Pick with Weight* | [Java](./javasolution/src/main/java/leetcode/reservoirsample/LC528)
+
 
 ---
 #### [Concurrent](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/concurrency)
@@ -117,9 +123,9 @@
 #### [Hash Table](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/hashtable)
 - *LC 1128 Number of Equivalent Domino Pairs* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1128)
 
----
----
 
+---
+---
 ### Data Structures 
 ---
 - [Union Find](https://snowan.github.io/post/union-find/)
@@ -127,13 +133,15 @@
 - [UnionFind - Quick Union](./javasolution/src/main/java/leetcode/unionfind/QuickUnion.java)
 - [UnionFind - Weighter Quick Union](./javasolution/src/main/java/leetcode/unionfind/WeighterQuickFind.java)
 
----
----
 
+---
+---
 ### Google Problems
 - *[Max Chunked Palindrome](./javasolution/src/main/java/google/onsite/chunked_palindrome.md)* | [Java](./javasolution/src/main/java/google/ChunkedPalindrome.java) | [详解](./javasolution/src/main/java/google/onsite/chunked_palindrome.md)
 - *Min Days to Bloom* | [Java](./javasolution/src/main/java/google/MinDays2Bloom.java)
 - *Recommend Friend* | [Java](./javasolution/src/main/java/google/RecommendFriend.java) | [详解](./javasolution/src/main/java/google/onsite/recommend_friends.md)
+- *Add and Multiply to Collection* | [Java](./javasolution/src/main/java/google/AddOrMultiplyToCollection.java)
+
 
 ---
 ### Java demos
