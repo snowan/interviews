@@ -2,7 +2,7 @@
 
 ### Leetcode
 ---
-#### [DP](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/dpgreedy)
+#### [DP, Greedy](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/dpgreedy)
 - *LC 516 Longest Palindrome Subsequence* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC516)
 - *LC 1024 Video Stitching* | [Java](./javasolution/src/main/java/leetcode/dp/LC1024)
 - *LC 678 Valid Parenthesis String* | [Java](./javasolution/src/main/java/leetcode/dp/LC678)
@@ -46,7 +46,7 @@
 
 
 ---
-#### [Recursion_DFS_BFS](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/recursion_dfs_bfs)
+#### [Recursion, DFS, BFS](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/recursion_dfs_bfs)
 - *LC 1066 Campus Bikes II* | [Java](./javasolution/src/main/java/leetcode/recursion/LC1066) | [Python]()
 - *LC 5087 Letter Tile Possibilities* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC5087)
 - *LC 465 Optimal Account Balancing* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC465) | [解题报告](https://snowan.github.io/post/lc465/)
