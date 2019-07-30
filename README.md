@@ -122,6 +122,7 @@
 
 #### [Hash Table](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/hashtable)
 - *LC 1128 Number of Equivalent Domino Pairs* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1128)
+- *LC 460 LFU Cache* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC460)
 
 
 ---
