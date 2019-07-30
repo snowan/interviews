@@ -142,6 +142,7 @@
 - *Recommend Friend* | [Java](./javasolution/src/main/java/google/RecommendFriend.java) | [详解](./javasolution/src/main/java/google/onsite/recommend_friends.md)
 - *Add and Multiply to Collection* | [Java](./javasolution/src/main/java/google/AddOrMultiplyToCollection.java)
 - *Compare Expression Trees* | [Java](./javasolution/src/main/java/google/CompareExpressionTrees.java)
+- *Coke Machine* | [Java](./javasolution/src/main/java/google/CokeMachine.java)
 
 
 ---
