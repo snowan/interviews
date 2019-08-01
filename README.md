@@ -144,6 +144,7 @@
 - *Add and Multiply to Collection* | [Java](./javasolution/src/main/java/google/AddOrMultiplyToCollection.java)
 - *Compare Expression Trees* | [Java](./javasolution/src/main/java/google/CompareExpressionTrees.java)
 - *Coke Machine* | [Java](./javasolution/src/main/java/google/CokeMachine.java)
+- *Customer List Set All O(1)* | [Java](./javasolution/src/main/java/google/CustomListSetAll.java)
 
 
 ---
