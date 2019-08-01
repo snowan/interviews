@@ -2,6 +2,7 @@ package google;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * https://leetcode.com/discuss/interview-question/348160
@@ -31,19 +32,19 @@ public class CustomListSetAll {
   private Map<Integer, Customer> customerMap;
   private int currVersion;
   private Integer setAllVal;
-  private int size;
+  private int capacity;
   public CustomListSetAll(int n) {
     this.currVersion = 0;
     this.setAllVal = null;
     customerMap = new HashMap<>();
-    this.size= n;
+    this.capacity= n;
   }
 
   /**
    * Replaces the element at the specified position in this list with the specified value.
    */
   public void set(int index, int value) {
-    if (index < 0 || index > size) throw new IllegalArgumentException("Invalid index on set");
+    if (index < 0 || index > capacity) throw new IllegalArgumentException("Invalid index on set");
     Customer customer = customerMap.getOrDefault(index, new Customer(index, value, currVersion));
     customer.val = value;
     customer.version = currVersion + 1;
@@ -54,7 +55,7 @@ public class CustomListSetAll {
    * Returns the element at the specified position in this list.
    */
   public int get(int index) {
-    if (index < 0 || index > size) throw new IllegalArgumentException("Invalid index on get");
+    if (index < 0 || index > capacity) throw new IllegalArgumentException("Invalid index on get");
     boolean exist = customerMap.containsKey(index);
     if (!exist && setAllVal == null) {
       return 0;
