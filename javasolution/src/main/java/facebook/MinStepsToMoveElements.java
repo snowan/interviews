@@ -24,6 +24,12 @@ import java.util.stream.Collectors;
  * Answer: 4 (Total no. of steps are 4)
  */
 public class MinStepsToMoveElements {
+  /**
+   * TC: O(n * n)
+   * worse case:
+   * n + (n - 1) + (n - 2) + ... + 1 ~ O(n * n)
+   *
+   */
   public static int minStepsMoveElem(int[] arr) {
     if (arr == null || arr.length == 0) return 0;
     int minSteps = 0;
