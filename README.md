@@ -148,6 +148,9 @@
 - *Customer List Set All O(1)* | [Java](./javasolution/src/main/java/google/CustomListSetAll.java)
 
 
+### Facebooks Problems
+- *[Min Steps to Remove Elements]* | [Java](./javasolution/src/main/java/facebook/MinStepsToMoveElements.java)
+
 ---
 ### Java demos
 ---
