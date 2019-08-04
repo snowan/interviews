@@ -48,6 +48,15 @@ import java.util.Map;
  * The input strings contain only digits 0-9.
  */
 public class GuessPinCode {
+  /**
+   * Solution: key point is to solve those exactly matching.
+   * two pass,
+   * one pass, record exactly matching into result, and map to track others counts for pin string.
+   * second pass, to track number for guess is in count map or not.
+   *
+   * TC: O(n)
+   * SC: O(n)
+   */
   public static String guessPinCode(String pin, String guess) {
     int len = pin.length();
     Map<Character, Integer> countMap = new HashMap<>();
