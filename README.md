@@ -69,6 +69,7 @@
 - *LC 29 Divide Two Integers* | [Java](./javasolution/src/main/java/leetcode/binarysearch/LC29) | [Python]()
 - *LC 1104 Path In Zigzag Labelled Binary Tree* | [Java](./javasolution/src/main/java/leetcode/binarysearch/LC1104)
 - *LC 374 Guess Number Higher or Lower* | [Java](./javasolution/src/main/java/leetcode/binarysearch/LC374)
+- *LC 4 Median of Two Sorted Arrays* | [Java](./javasolution/src/main/java/leetcode/binarysearch/LC4)
 
 
 ---
