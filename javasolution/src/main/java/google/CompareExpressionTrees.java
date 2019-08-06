@@ -1,6 +1,7 @@
 package google;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CompareExpressionTrees {
 
@@ -9,10 +10,10 @@ public class CompareExpressionTrees {
     if (tree1 == null || tree2 == null) return false;
     StringBuilder sb1 = new StringBuilder();
     getTreeExpression(tree1, sb1);
-    System.out.println("tree1 " + sb1.toString());
+    System.out.println("tree1 " + sb1.substring(1, sb1.length() - 2));
     StringBuilder sb2 = new StringBuilder();
     getTreeExpression(tree2, sb2);
-    System.out.println("tree2 " + sb2.toString());
+    System.out.println("tree2 " + sb2.substring(1, sb2.length() - 2));
     Map<String, Integer> plus = new HashMap<>();
     Map<String, Integer> minus = new HashMap<>();
     // e.g. a + de + a + c - d
@@ -51,11 +52,21 @@ public class CompareExpressionTrees {
     return minus.size() == 0 && plus.size() == 0;
   }
 
+  private String processStrExp(String s) {
+    String res = "";
+    return res;
+  }
+
   private static void getTreeExpression(TreeNode node, StringBuilder sb) {
-    if (node == null) return;
+    if (node == null || node.val == null) return;
+    sb.append("(");
     getTreeExpression(node.left, sb);
-    if (node.val != null) sb.append(node.val);
+    if (!node.val.equals("+") || !node.val.equals("-")) {
+      sb.deleteCharAt(sb.length() - 1);
+    }
+    sb.append(node.val);
     getTreeExpression(node.right, sb);
+    sb.append(")");
   }
 
   private static TreeNode buildTree(String[] nodes, TreeNode root, int idx) {
@@ -69,7 +80,7 @@ public class CompareExpressionTrees {
   }
 
   public static void main(String[] args) {
-    String[] nodes1 = {"+", "+", "+", "a", "de", "a", "c"}; //{"+", "a", "b"}; //
+    String[] nodes1 = {"-", "+", "-", "a", "de", "a", "c"}; //{"+", "a", "b"}; //
     String[] nodes2 = {"+", "+", "de", "a", "c"}; //{"+", "b", "a"}; //
     TreeNode r1 = CompareExpressionTrees.buildTree(nodes1, new TreeNode(null), 0);
     TreeNode r2 = CompareExpressionTrees.buildTree(nodes2, new TreeNode(null), 0);
