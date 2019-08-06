@@ -1,6 +1,5 @@
 package leetcode.array.LC215;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Random;
@@ -115,9 +114,7 @@ public class LC215KthLargestElemInArr {
     System.out.println(LC215KthLargestElemInArr.findKthlargest2(new int[]{3, 2, 1, 5, 6, 4}, 2));
     System.out.println(LC215KthLargestElemInArr.findKthlargest2(new int[]{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4));
     System.out.println("--------------------------------------------");
-//    System.out.println(LC215KthLargestElemInArr.findKthLargest3(new int[]{3, 2, 1, 5, 6, 4}, 2));
-//    System.out.println(LC215KthLargestElemInArr.findKthLargest3(new int[]{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4));
-
-    System.out.println(LC215KthLargestElemInArr.partition(new int[]{1, 2, 3, 3, 4, 2, 5, 5, 6},2, 5, 4));
+    System.out.println(LC215KthLargestElemInArr.findKthLargest3(new int[]{3, 2, 1, 5, 6, 4}, 2));
+    System.out.println(LC215KthLargestElemInArr.findKthLargest3(new int[]{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4));
   }
 }
