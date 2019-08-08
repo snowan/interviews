@@ -99,6 +99,7 @@
 - *LC 145 Binary Tree Postorder Traversal* | [Java](./javasolution/src/main/java/leetcode/tree/LC145)
 - *LC 102 Binary Tree Level Order Traversal* | [Java](./javasolution/src/main/java/leetcode/tree/LC102)
 - *LC 1120 Maximum Average Subtree* | [Java](./javasolution/src/main/java/leetcode/tree/LC1120)
+- *LC 1123 Lowest Common Ancestor of Deepest Leaves* | [Java](./javasolution/src/main/java/leetcode/tree/LC1123)
 
 
 ---
