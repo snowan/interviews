@@ -149,6 +149,7 @@
 - *Compare Expression Trees* | [Java](./javasolution/src/main/java/google/CompareExpressionTrees.java)
 - *Coke Machine* | [Java](./javasolution/src/main/java/google/CokeMachine.java)
 - *Customer List Set All O(1)* | [Java](./javasolution/src/main/java/google/CustomListSetAll.java)
+- *Number of Valid Strings* | [Java](./javasolution/src/main/java/google/NumOfValidStr.java)
 
 
 ### Facebooks Problems
