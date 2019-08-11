@@ -153,7 +153,7 @@
 
 
 ### Facebooks Problems
-- *[Min Steps to Remove Elements]* | [Java](./javasolution/src/main/java/facebook/MinStepsToMoveElements.java)
+- *Min Steps to Remove Elements* | [Java](./javasolution/src/main/java/facebook/MinStepsToMoveElements.java)
 
 ---
 ### Java demos
