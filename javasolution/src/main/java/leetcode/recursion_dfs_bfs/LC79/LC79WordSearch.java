@@ -45,10 +45,10 @@ public class LC79WordSearch {
     if (r < 0 || r >= board.length || c < 0 || c >= board[0].length ||
         board[r][c] != word.charAt(start)) return false;
     board[r][c] = '*';
-    boolean res = helper(board, word, r + 1, c, start + 1)
-        ||  helper(board, word, r, c + 1, start + 1)
-        ||  helper(board, word, r - 1, c, start + 1)
-        ||  helper(board, word, r, c - 1, start + 1);
+    boolean res = helper(board, word, r - 1, c, start + 1) // up
+        ||  helper(board, word, r + 1, c, start + 1)      // down
+        ||  helper(board, word, r, c - 1, start + 1)     // left
+        ||  helper(board, word, r, c + 1, start + 1);   // right
     board[r][c] = word.charAt(start);
     return res;
   }
