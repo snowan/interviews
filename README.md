@@ -82,6 +82,7 @@
 - *LC 1122 Relative Sort Array* | [Java](./javasolution/src/main/java/leetcode/array/LC1122)
 - *LC 334 Increasing Triplet Subsequence* | [Java](./javasolution/src/main/java/leetcode/array/LC334)
 - *LC 215 Kth Largest Element in an Array* | [Java](./javasolution/src/main/java/leetcode/array/LC215)
+- *LC 1151 Minimum Swaps to Group All 1's Together* | [Java](./javasolution/src/main/java/leetcode/array/LC1151)
 
 ---
 #### [Two Pointers](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/twopointers)
