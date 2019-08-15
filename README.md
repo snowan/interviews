@@ -30,6 +30,7 @@
 - *LC 1057 Campus Bikes* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1057)
 - *LC 926 Flip String to Monotone Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC926) | [Python](./python/main/leetcode/LC926/flip_string_to_monotone_increase.py)
 - *LC 801 Minimum Swaps To Make Sequences Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC801)
+- *LC 1155. Number of Dice Rolls With Target Sum* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1155)
 
 
 ---
