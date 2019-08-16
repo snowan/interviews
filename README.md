@@ -90,6 +90,7 @@
 - *LC 30 Substring with Concatenation of All Words* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC30) | [Python](./python/main/leetcode/LC30/solution.py) | [解题报告](https://snowan.github.io/post/lc30/)
 - *LC 828 Unique Letter String* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC828)
 - *LC 1040 Moving Stones Until Consecutive II* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC1040)
+- *LC 1156 Swap For Longest Repeated Character Substring* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC1156)
 
 
 ---
