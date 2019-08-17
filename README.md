@@ -30,6 +30,7 @@
 - *LC 1057 Campus Bikes* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1057)
 - *LC 926 Flip String to Monotone Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC926) | [Python](./python/main/leetcode/LC926/flip_string_to_monotone_increase.py)
 - *LC 801 Minimum Swaps To Make Sequences Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC801)
+- *LC 1155. Number of Dice Rolls With Target Sum* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1155)
 
 
 ---
@@ -89,6 +90,7 @@
 - *LC 30 Substring with Concatenation of All Words* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC30) | [Python](./python/main/leetcode/LC30/solution.py) | [解题报告](https://snowan.github.io/post/lc30/)
 - *LC 828 Unique Letter String* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC828)
 - *LC 1040 Moving Stones Until Consecutive II* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC1040)
+- *LC 1156 Swap For Longest Repeated Character Substring* | [Java](./javasolution/src/main/java/leetcode/twopointers/LC1156)
 
 
 ---
