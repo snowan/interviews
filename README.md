@@ -31,6 +31,7 @@
 - *LC 926 Flip String to Monotone Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC926) | [Python](./python/main/leetcode/LC926/flip_string_to_monotone_increase.py)
 - *LC 801 Minimum Swaps To Make Sequences Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC801)
 - *LC 1155. Number of Dice Rolls With Target Sum* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1155)
+- *LC 53 Maximum Sum Subarray* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC53) | [解题中文](./javasolution/src/main/java/leetcode/dpgreedy/LC53/53.maximum-sum-subarray-cn.md) | [解题英文](./javasolution/src/main/java/leetcode/dpgreedy/LC53/53.maximum-sum-subarray-en.md)
 
 
 ---
