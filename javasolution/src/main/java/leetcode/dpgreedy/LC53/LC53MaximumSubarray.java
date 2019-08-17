@@ -46,6 +46,20 @@ public class LC53MaximumSubarray {
     return maxSum;
   }
 
+  public int maxSubArrayBruteForce(int[] nums) {
+    int len = nums.length;
+    int maxSum = Integer.MIN_VALUE;
+    int sum = 0;
+    for (int i = 0; i < len; i++) {
+      sum = 0;
+      for (int j = i; j < len; j++) {
+        sum += nums[j];
+        maxSum = Math.max(maxSum, sum);
+      }
+    }
+    return maxSum;
+  }
+
   /**
    * solution #3: DP
    */
@@ -56,6 +70,18 @@ public class LC53MaximumSubarray {
       currMaxSum = Math.max(currMaxSum + nums[i], nums[i]);
       maxSum = Math.max(maxSum, currMaxSum);
       System.out.println("currMaxSum: " + currMaxSum + ", maxSum: " + maxSum);
+    }
+    return maxSum;
+  }
+
+  public int maxSubArray3(int[] nums) {
+    int maxSum = nums[0];
+    int sum = 0;
+    int minSum = 0;
+    for (int num : nums) {
+      sum += num;
+      maxSum = Math.max(maxSum, sum - minSum);
+      minSum = Math.min(minSum, sum);
     }
     return maxSum;
   }
