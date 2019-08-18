@@ -31,7 +31,7 @@
 - *LC 926 Flip String to Monotone Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC926) | [Python](./python/main/leetcode/LC926/flip_string_to_monotone_increase.py)
 - *LC 801 Minimum Swaps To Make Sequences Increasing* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC801)
 - *LC 1155. Number of Dice Rolls With Target Sum* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1155)
-- *LC 53 Maximum Sum Subarray* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC53) | [解题中文](./javasolution/src/main/java/leetcode/dpgreedy/LC53/53.maximum-sum-subarray-cn.md) | [解题英文](./javasolution/src/main/java/leetcode/dpgreedy/LC53/53.maximum-sum-subarray-en.md)
+- *LC 53 Maximum Sum Subarray* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC53) | [解题中文](./javasolution/src/main/java/leetcode/dpgreedy/LC53/53.maximum-sum-subarray-cn.md) | [解题英文](./javasolution/src/main/java/leetcode/dpgreedy/LC53/53.maximum-sum-subarray-en.md) 🆕
 
 
 ---
@@ -45,6 +45,7 @@
 - *LC 1065 Index Pairs of a String* | [Java](./javasolution/src/main/java/leetcode/string/LC1065)
 - *LC 1108 Defanging an IP Address* | [Java](./javasolution/src/main/java/leetcode/string/LC1108)
 - *LC 1119 Remove Vowels from a String* | [Java](./javasolution/src/main/java/leetcode/string/LC1119) | [Python](./python/leetcode/LC1119/remove_vowels.py)
+- *LC 1163 Last Substring in Lexicographical Order* | [Java](./javasolution/src/main/java/leetcode/string/LC1163) 🆕
 
 
 ---
@@ -59,6 +60,8 @@
 - *LC 425 Word Squares* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC425)
 - *LC 130 Surrounded Regions* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC130)
 - *LC 1129 Shortest Path with Alternating Colors* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1129)
+- *LC 1161 Maximum Level Sum of a Binary Tree* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1161) 🆕
+- *LC 1162 As Far from Land as Possible* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1162) 🆕
 
 
 ---
@@ -131,6 +134,7 @@
 #### [Hash Table](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/hashtable)
 - *LC 1128 Number of Equivalent Domino Pairs* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1128)
 - *LC 460 LFU Cache* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC460) | [详解](./javasolution/src/main/java/leetcode/hashtable/LC460/460.LFU-cache.md)
+- *LC 1160 Find Words That Can Be Formed by Characters* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1160) 🆕
 
 
 ---
