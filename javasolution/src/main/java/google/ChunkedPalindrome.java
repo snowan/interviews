@@ -24,6 +24,19 @@ public class ChunkedPalindrome {
     return max;
   }
 
+  public int longestDecomposition(String text) {
+    if (text == null || text.length() == 0) return 0;
+    int len = text.length();
+    for (int i = 0; i < len / 2; i++) {
+      String prefix = text.substring(0, i + 1);
+      String suffix = text.substring(len - i - 1, len);
+      if (prefix.equals(suffix)) {
+        return 2 + longestDecomposition(text.substring(i + 1, len - i - 1));
+      }
+    }
+    return 1;
+  }
+
   public static int maxChunkedPalindrome(String s) {
     if (s == null || s.length() == 0) return 0;
     int max = helper(s, 0, 0, s);
