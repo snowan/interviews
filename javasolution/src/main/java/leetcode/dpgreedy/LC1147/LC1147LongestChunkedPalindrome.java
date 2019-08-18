@@ -15,7 +15,7 @@ public class LC1147LongestChunkedPalindrome {
   }
 
   public int longestDecomposition2(String text) {
-    if (s == null || s.length() == 0) return 0;
+    if (text == null || text.length() == 0) return 0;
     int l = 0;
     int r = text.length() - 1;
     int max = 0;
