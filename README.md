@@ -137,6 +137,7 @@
 - *LC 1128 Number of Equivalent Domino Pairs* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1128)
 - *LC 460 LFU Cache* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC460) | [详解](./javasolution/src/main/java/leetcode/hashtable/LC460/460.LFU-cache.md)
 - *LC 1160 Find Words That Can Be Formed by Characters* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1160) 🆕
+- *LC 1146 Snapshot Array* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1146) 🆕
 
 
 ---
