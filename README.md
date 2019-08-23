@@ -48,7 +48,7 @@
 - *LC 1108 Defanging an IP Address* | [Java](./javasolution/src/main/java/leetcode/string/LC1108)
 - *LC 1119 Remove Vowels from a String* | [Java](./javasolution/src/main/java/leetcode/string/LC1119) | [Python](./python/leetcode/LC1119/remove_vowels.py)
 - *LC 1163 Last Substring in Lexicographical Order* | [Java](./javasolution/src/main/java/leetcode/string/LC1163) 🆕
-- *LC 1147 Longest Chunked Palindrome Decomposition* | [Java](./javasolution/src/main/java/leetcode/string/LC1147) 🆕
+- *LC 1147 Longest Chunked Palindrome Decomposition* | [Java](./javasolution/src/main/java/leetcode/string/LC1147) | [解题中文](https://snowan.gitbook.io/study-notes/leetcode/zhong-wen-ban-jie-ti/1147.longest-chunked-palindrome-decomposition-cn) 🆕
 
 
 ---
