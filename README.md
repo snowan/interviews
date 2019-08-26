@@ -117,7 +117,7 @@
 ---
 #### [Union Find](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/unionfind)
 - *LC 1061 Lexicographically Smallest Equivalent String* | [Java](./javasolution/src/main/java/leetcode/unionfind/LC1061)
-- *LC 1168 Optimize Water Distribution In a Village* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1168) | [解题中文](./javasolution/src/main/java/leetcode/dpgreedy/LC1168/1168.optimize-water-distribution-in-a-village-cn.md) | [Solution Analysis English version](1168.optimize-water-distribution-in-a-village-en.md) 🆕
+- *LC 1168 Optimize Water Distribution In a Village* | [Java](./javasolution/src/main/java/leetcode/unionfind/LC1168) | [解题中文](./javasolution/src/main/java/leetcode/unionfind/LC1168/1168.optimize-water-distribution-in-a-village-cn.md) | [Solution Analysis English version](./javasolution/src/main/java/leetcode/unionfind/1168.optimize-water-distribution-in-a-village-en.md) 🆕
 
 
 ---
