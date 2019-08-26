@@ -1,6 +1,5 @@
 package leetcode.hashtable.LC1166;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 

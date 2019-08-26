@@ -56,6 +56,10 @@ public class LC1168MinCostDistributionWater {
       if (rootX == rootY) continue;
       minCosts += edge.cost;
       uf.union(edge.node1, edge.node2);
+      n--;
+      if (n == 0) {
+        return minCosts;
+      }
     }
     return minCosts;
   }
@@ -105,6 +109,6 @@ public class LC1168MinCostDistributionWater {
 
   public static void main(String[] args) {
     LC1168MinCostDistributionWater test = new LC1168MinCostDistributionWater();
-    test.minCostToSupplyWater(3, new int[]{1,2,2}, new int[][]{{1,2,1}, {2,3,1}});
+    System.out.println(test.minCostToSupplyWater(5, new int[]{1,2,2,3,2}, new int[][]{{1,2,1}, {2,3,1}, {4,5,7}}));
   }
 }
