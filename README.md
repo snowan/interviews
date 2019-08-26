@@ -34,6 +34,7 @@
 - *LC 53 Maximum Sum Subarray* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC53) | [解题中文](./javasolution/src/main/java/leetcode/dpgreedy/LC53/53.maximum-sum-subarray-cn.md) | [解题英文](./javasolution/src/main/java/leetcode/dpgreedy/LC53/53.maximum-sum-subarray-en.md) 🆕
 - *LC 474 Zeros and Ones* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC474) | [解题中文](./javasolution/src/main/java/leetcode/dpgreedy/LC474/474.ones-and-zeros-cn.md)| [Solution Analysis English](./javasolution/src/main/java/leetcode/dpgreedy/LC474/474.ones-and-zeros-en.md) 🆕
 - *LC 1143 Longest Common Subsequence* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1143) 🆕
+- *LC 1167 Minimum Cost to Connect Sticks* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1167) 🆕
 
 
 ---
@@ -115,7 +116,8 @@
 
 ---
 #### [Union Find](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/unionfind)
-- *1061 Lexicographically Smallest Equivalent String* | [Java](./javasolution/src/main/java/leetcode/unionfind/LC1061) 
+- *LC 1061 Lexicographically Smallest Equivalent String* | [Java](./javasolution/src/main/java/leetcode/unionfind/LC1061)
+- *LC 1168 Optimize Water Distribution In a Village* | [Java](./javasolution/src/main/java/leetcode/dpgreedy/LC1168) 🆕
 
 
 ---
@@ -140,6 +142,8 @@
 - *LC 460 LFU Cache* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC460) | [详解](./javasolution/src/main/java/leetcode/hashtable/LC460/460.LFU-cache.md)
 - *LC 1160 Find Words That Can Be Formed by Characters* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1160) 🆕
 - *LC 1146 Snapshot Array* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1146) 🆕
+- *LC 1165 Single-Row Keyboard* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1165) 🆕
+- *LC 1166 Design File System* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1166) 🆕
 
 
 ---
