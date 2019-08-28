@@ -144,6 +144,7 @@
 - *LC 1146 Snapshot Array* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1146) 🆕
 - *LC 1165 Single-Row Keyboard* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1165) 🆕
 - *LC 1166 Design File System* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1166) 🆕
+- *LC 1171 Remove Zero Sum Consecutive Nodes from Linked List* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1171) 🆕
 
 
 ---
