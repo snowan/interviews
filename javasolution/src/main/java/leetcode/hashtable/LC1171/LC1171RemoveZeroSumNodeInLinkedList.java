@@ -35,7 +35,7 @@ public class LC1171RemoveZeroSumNodeInLinkedList {
   /**
    * prefixSum + hashMap
    */
-  public ListNode removeZeroSumSublists(ListNode head) {
+  public static ListNode removeZeroSumSublists(ListNode head) {
     ListNode dummy = new ListNode(0);
     ListNode currNode = dummy;
     dummy.next = head;
@@ -60,12 +60,45 @@ public class LC1171RemoveZeroSumNodeInLinkedList {
     return dummy.next;
   }
 
-  class ListNode {
+  static class ListNode {
     int val;
     ListNode next;
 
     public ListNode(int val) {
       this.val = val;
     }
+  }
+
+  private static ListNode createListNode(int[] arr) {
+    ListNode node = new ListNode(arr[0]);
+    ListNode res = node;
+    for (int i = 1; i < arr.length; i++) {
+      ListNode next = new ListNode(arr[i]);
+      node.next = next;
+      node = next;
+    }
+    return res;
+  }
+
+  private static void printList(String msg, ListNode node) {
+    ListNode curr = node;
+    System.out.println(msg);
+    while (curr != null) {
+      System.out.print(curr.val + "->");
+      curr = curr.next;
+    }
+    System.out.println();
+  }
+
+  public static void main(String[] args) {
+    ListNode test = createListNode(new int[]{1,2,3,-3,-2,9});
+    ListNode test1 = createListNode(new int[]{1,3,2,-3,-2,5,5,-5,1});
+    printList("", test);
+    printList("", test1);
+
+    ListNode tt = removeZeroSumSublists(test);
+    printList("---------------", tt);
+    ListNode tt1 = removeZeroSumSublists(test1);
+    printList("---------------", tt1);
   }
 }
