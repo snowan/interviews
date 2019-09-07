@@ -123,6 +123,7 @@
 ---
 #### [Linked List](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/linkedlist)
 - *LC 369 Plus One Linked List* | [Java](./javasolution/src/main/java/leetcode/linkedlist/LC369) | [Python](./python/main/leetcode/LC369/plus_one_linkedlist.py)
+- *LC 25 Reverse Nodes in K Group* | [Java](./javasolution/src/main/java/leetcode/linkedlist/LC25) | | [解题中文](https://snowan.gitbook.io/study-notes/leetcode/zhong-wen-ban-jie-ti/25.reverse-nodes-in-k-groups-cn) | [Solution Analysis English version](https://snowan.gitbook.io/study-notes/leetcode/english-solution/25.reverse-nodes-in-k-groups-en) 🆕
 
 
 ---
