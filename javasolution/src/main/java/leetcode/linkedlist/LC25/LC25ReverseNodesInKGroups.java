@@ -34,17 +34,33 @@ public class LC25ReverseNodesInKGroups {
     return dummy.next;
   }
 
-  // reverse linked list from range (start, end], return last node.
-  private ListNode reverse(ListNode pre, ListNode next) {
-    ListNode last = pre.next;
-    ListNode curr = last.next;
-
-    while (curr != next) {
-      last.next = curr.next;
-      curr.next = pre.next;
-      pre.next = curr;
-      curr = last.next;
+  /**
+   * reverse linked list from range (start, end), return last node.
+   * for example:
+   * 0->1->2->3->4->5->6->7->8
+   * |           |
+   * start       end
+   * <p>
+   * After call start = reverse(start, end)
+   * <p>
+   * 0->3->2->1->4->5->6->7->8
+   * |  |
+   * start end
+   *
+   * @return the reversed list's 'start' node, which is the precedence of node end
+   */
+  private ListNode reverse(ListNode start, ListNode end) {
+    ListNode curr = start.next;
+    ListNode prev = start;
+    ListNode first = curr;
+    while (curr != end) {
+      ListNode temp = curr.next;
+      curr.next = prev;
+      prev = curr;
+      curr = temp;
     }
-    return last;
+    start.next = prev;
+    first.next = curr;
+    return first;
   }
 }
