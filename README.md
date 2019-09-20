@@ -146,7 +146,7 @@
 - *LC 1165 Single-Row Keyboard* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1165) 🆕
 - *LC 1166 Design File System* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1166) 🆕
 - *LC 1171 Remove Zero Sum Consecutive Nodes from Linked List* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1171) | [中文解题](https://snowan.gitbook.io/study-notes/leetcode/zhong-wen-ban-jie-ti/1171.remove-zero-sum-consecutive-nodes-from-linked-list-cn) | [English Solution Analysis](https://snowan.gitbook.io/study-notes/leetcode/english-solution/1171.remove-zero-sum-consecutive-nodes-from-linked-list-en) 🆕
-
+- *LC 1178 Number of Valid Words for Each Puzzle* | [Java](./javasolution/src/main/java/leetcode/hashtable/LC1178) 🆕
 
 ---
 ---
