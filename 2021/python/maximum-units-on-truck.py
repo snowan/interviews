@@ -39,12 +39,12 @@ def maximumUnits(boxTypes : List[List[int]], truckSize: int) -> int:
     if not boxTypes or truckSize == 0:
         return 0
     res = 0
-    boxTyes.sort(key = lambda x: -x[1])
+    boxTypes.sort(key = lambda x: -x[1])
     res = 0
     for b, unit in boxTypes:
         take = truckSize if truckSize - b < 0 else b
         res += take * unit
-        tuckSize -= b
+        truckSize -= b
         if truckSize <= 0:
             return res
     return res
