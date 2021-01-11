@@ -87,7 +87,7 @@ def createSortedArray(instructions: List[int]) -> int:
         less = getSum(val - 1)
         more = getSum(val)
         ans += min(less, i - more)
-        update(val)
+        updateSum(val)
     return ans % mod
 
 
