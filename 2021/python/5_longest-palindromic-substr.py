@@ -60,8 +60,7 @@ def longestPalindrome(s: str) -> str:
                 if right - left == 1 or dp[left + 1][right - 1]:
                     dp[left][right] = 1
                     if longest < right - left + 1:
-                        start = left
-                        longest = right - left + 1
+                        start, longest = left, right - left + 1
     return s[start : start + longest]
 
 
