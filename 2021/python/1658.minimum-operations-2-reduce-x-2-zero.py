@@ -44,8 +44,7 @@ def minOperations(nums: List[int], x: int) -> int:
         if target == 0:
             return len(nums)
         size = len(nums)
-        max_subarr = -1
-        pre_sum = 0
+        max_subarr, pre_sum = -1, 0
         dic = {0 : -1}
         for i, num in enumerate(nums):
             pre_sum += num
