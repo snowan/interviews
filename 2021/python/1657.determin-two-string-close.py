@@ -59,10 +59,10 @@ def closeStrings(word1: str, word2: str) -> bool:
             return False
         count2[key] = count2.get(key, 0) + 1
     # sort dict by values (frequency)
-    count1 = dict(sorted(count1.items(), key=lambda items: item[1]))
-    count2 = dict(sorted(count2.items(), key=lambda items: item[1]))
+    count1 = sorted(count1.values())
+    count2 = sorted(count2.values())
     # check values are equal, not equal, terminate early
-    for (k1, v1), (k2, v2) in zip(count1.items(), count2.items()):
+    for v1, v2 in zip(count1, count2:
         if v1 != v2:
             return False
     return True
