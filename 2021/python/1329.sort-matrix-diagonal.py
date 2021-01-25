@@ -26,7 +26,7 @@ def diagonalSort(mat: List[List[int]]) -> List[List[int]]:
         return mat
     m, n = len(mat), len(mat[0])
     # dictionary to store same r-c into list
-    diag_map = {}
+    diag_map = defaultdict(list)
     for r in range(m):
         for c in range(n):
             diag_map[r - c].append(mat[r][c])
