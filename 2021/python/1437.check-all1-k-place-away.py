@@ -41,6 +41,7 @@ def kLengthApart(nums: List[int], k: int) -> bool:
             if count < k:
                 return False
             # reset count = 0
+            count = 0
         else:
             # count zeros
             count += 1
