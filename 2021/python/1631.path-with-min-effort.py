@@ -42,9 +42,8 @@ def minimumEffortPath(self, heights: List[List[int]]) -> int:
     # print(dp)
     # init top left with effort 0
     dp[0][0] = 0
-    minHeap = []
-    # heap keep track of r, c, effort
-    minHeap.append((0, 0, 0))
+    # heap keep track of r, c, effort, init with (r, c dis) -> (0,0,0)
+    minHeap[(0, 0, 0)]
     # 4 directions
     dirs = [(1, 0), (-1, 0), (0, 1), (0, -1)]
     while minHeap:
