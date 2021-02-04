@@ -55,8 +55,7 @@ class Solution:
         while fast.next and fast.next.next:
             if not slow or not fast:
                 return False
-            slow = slow.next
-            fast = fast.next.next
+            slow, fast = slow.next, fast.next.next
             if slow == fast:
                 return True
         return False
