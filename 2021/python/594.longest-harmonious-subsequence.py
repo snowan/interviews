@@ -37,9 +37,9 @@ def findLHS(self, nums: List[int]) -> int:
     if not nums or len(nums) < 2:
         return 0
     #counts = dict((x in nums.count(x)) for x in set(nums)) -- not work
-    counts = {}
+    counts = defaultdict(int)
     for num in nums:
-        counts[num] = counts.get(num, 0) + 1
+        counts[num] += 1
     res = 0
     for i, num in enumerate(nums):
         if num + 1 in nums:
