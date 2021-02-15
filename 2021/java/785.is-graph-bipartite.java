@@ -1,4 +1,5 @@
 class Solution {
+    // BFS
     public boolean isBipartite(int[][] graph) {
         if (graph == null || graph.length == 0) return false;
         int len = graph.length;
@@ -23,6 +24,28 @@ class Solution {
                     }
                 }
             }
+        }
+        return true;
+    }
+    
+    // DFS
+    public boolean isBipartite(int[][] graph) {
+        int len = graph.length;
+        int[] colors = new int[len];
+        for (int i = 0; i < len; i++) {
+            if (colors[i] == 0 && !isValid(graph, i, 1, colors)) {
+                return false;
+            }
+        }
+        return true;
+    }
+    private boolean isValid(int[][] graph, int node, int color, int[] colors) {
+        if (colors[node] != 0) {
+            return colors[node] == color;
+        }
+        colors[node] = color;
+        for (int next : graph[node]) {
+            if (!isValid(graph, next, -color, colors)) return false;
         }
         return true;
     }
