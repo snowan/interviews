@@ -14,11 +14,8 @@ class Solution {
         int next = 0;
         for (int i = 1; i < s.length(); i++) {
             next = map.get(s.charAt(i));
-            if (prev < next) {
-                sum -= prev;
-            } else {
-                sum += prev;
-            }
+            sum = prev < next ? sum - prev : sum + prev
+            // reset prev
             prev = next;
         }
         
