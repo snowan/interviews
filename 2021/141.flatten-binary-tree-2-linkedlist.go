@@ -12,12 +12,14 @@ func flatten(root *TreeNode)  {
         return
     }
     
-    var curr *TreeNode
-    curr = root
+//     var curr *TreeNode
+//     curr = root
+    curr := root
     for curr != nil {
         if curr.Left != nil {
-            var rightmost *TreeNode
-            rightmost = curr.Left
+//             var rightmost *TreeNode
+//             rightmost = curr.Left
+            rightmost := curr.left
             for rightmost.Right != nil {
                 rightmost = rightmost.Right
             }
