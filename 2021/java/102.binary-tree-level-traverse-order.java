@@ -29,12 +29,11 @@ class Solution {
     private void dfs(TreeNode node, int depth, List<List<Integer>> res) {
         if (node == null) return;
         if (depth >= res.size()) {
-            List<Integer> curr = new ArrayList<>();
-            curr.add(node.val);
-            res.add(curr);
-        } else {
-            res.get(depth).add(node.val);
+            res.add(new ArrayList<>());
         }
+        
+        res.get(depth).add(node.val);
+        
         dfs(node.left, depth + 1, res);
         dfs(node.right, depth + 1, res);
     }
