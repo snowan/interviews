@@ -1,6 +1,6 @@
 ## Problem: 863. All Nodes Distance K in Binary Tree
 
-https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/``
+https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 
 Given the root of a binary tree, the value of a target node target, and an integer k, return an array of the values of all nodes that have a distance k from the target node.
 
@@ -82,7 +82,7 @@ BFS to traverse starting from target node, found all nodes with distances k
 
 using visited `set()` to reduce duplicate visit
 
-```python``
+```python
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
         # build graph
