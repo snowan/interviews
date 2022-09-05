@@ -50,7 +50,7 @@
 - *LC 1119 Remove Vowels from a String* | [Java](./javasolution/src/main/java/leetcode/string/LC1119) | [Python](./python/leetcode/LC1119/remove_vowels.py)
 - *LC 1163 Last Substring in Lexicographical Order* | [Java](./javasolution/src/main/java/leetcode/string/LC1163) 🆕
 - *LC 1147 Longest Chunked Palindrome Decomposition* | [Java](./javasolution/src/main/java/leetcode/string/LC1147) | [解题中文](https://snowan.gitbook.io/study-notes/leetcode/zhong-wen-ban-jie-ti/1147.longest-chunked-palindrome-decomposition-cn) 🆕
-- *LC 1177. Can Make Palindrome from Substring* | [Java](./javasolution/src/main/java/leetcode/string/LC1177) | [解题中文](https://snowan.gitbook.io/study-notes/leetcode/zhong-wen-ban-jie-ti/1177.can-make-palindrome-from-substring-cn) | [English Solution Analisis](https://snowan.gitbook.io/study-notes/leetcode/english-solution/1177.can-make-palindrome-from-substring-en) 🆕
+- *LC 1177. Can Make Palindrome from Substring* | [Java](./javasolution/src/main/java/leetcode/string/LC1177) | [解题中文](https://snowan.gitbook.io/study-notes/leetcode/zhong-wen-ban-jie-ti/1177.can-make-palindrome-from-substring-cn) | [English Solution Analisis](https://snowan.gitbook.io/study-notes/leetcode/english-solution/1177.can-make-palindrome-from-substring-en) 
 
 
 
@@ -66,9 +66,9 @@
 - *LC 425 Word Squares* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC425)
 - *LC 130 Surrounded Regions* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC130)
 - *LC 1129 Shortest Path with Alternating Colors* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1129)
-- *LC 1161 Maximum Level Sum of a Binary Tree* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1161) 🆕
-- *LC 1162 As Far from Land as Possible* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1162) 🆕
-
+- *LC 1161 Maximum Level Sum of a Binary Tree* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1161)
+- *LC 1162 As Far from Land as Possible* | [Java](./javasolution/src/main/java/leetcode/recursion_dfs_bfs/LC1162)
+- *LC 863 All nodes distance k in Binary Tree | [Python](./leetcode/0863_all_nodes_distance_k_in_binary_tree.md)
 
 ---
 #### [Math](https://github.com/snowan/interviews/tree/master/javasolution/src/main/java/leetcode/math)
