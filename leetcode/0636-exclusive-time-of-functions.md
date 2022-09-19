@@ -72,6 +72,9 @@ After understanding the problem, realize that it is to calculate each segmentati
     b. if stack not empty, update previous time(stack.top()[1]) = time + 1
 
 
+*TC*: O(n)
+
+
 ```python
 class Solution:
     def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
