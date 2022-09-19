@@ -39,6 +39,10 @@ Constraints:
 
 #### Solution 1: DFS + memorization
 
+**Time Complexity:** O(m*n)
+
+**Space complexity:** O(m*n)
+
 ```python
 class Solution:
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
