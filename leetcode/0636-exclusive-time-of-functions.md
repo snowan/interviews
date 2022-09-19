@@ -71,6 +71,7 @@ After understanding the problem, realize that it is to calculate each segmentati
     a. pop stack top, and calculate segmentation executed time, res[id] = time - top[1] + 1
     b. if stack not empty, update previous time(stack.top()[1]) = time + 1
 
+
 *TC*: O(n)
 
 
